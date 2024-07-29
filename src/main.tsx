@@ -10,7 +10,7 @@ import "./assets/img/apple-touch-icon.png"
 // Vendor CSS Files
 import "aos/dist/aos.css"
 import "bootstrap/dist/css/bootstrap.min.css"
-import "./assets/vendor/bootstrap-icons/bootstrap-icons.css"
+import "bootstrap-icons/font/bootstrap-icons.css"
 import "./assets/vendor/boxicons/css/boxicons.min.css"
 import "./assets/vendor/remixicon/remixicon.css"
 import "swiper/css/bundle"
