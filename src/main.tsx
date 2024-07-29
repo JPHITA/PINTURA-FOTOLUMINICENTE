@@ -20,7 +20,6 @@ import "./assets/css/style.css"
 
 // JS
 // Vendor JS Files
-  import "./assets/vendor/purecounter/purecounter_vanilla.js"
   import "./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
   import "./assets/vendor/isotope-layout/isotope.pkgd.min.js"
 
