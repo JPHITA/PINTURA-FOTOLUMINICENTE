@@ -11,8 +11,9 @@ import "./assets/img/apple-touch-icon.png"
 import "aos/dist/aos.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-icons/font/bootstrap-icons.css"
-import "./assets/vendor/boxicons/css/boxicons.min.css"
-import "./assets/vendor/remixicon/remixicon.css"
+import "boxicons/css/boxicons.min.css"
+// import "./assets/vendor/remixicon/remixicon.css"
+import "remixicon/fonts/remixicon.css"
 import "swiper/css/bundle"
 
 // Template Main CSS File
