@@ -12,7 +12,6 @@ import "aos/dist/aos.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-icons/font/bootstrap-icons.css"
 import "boxicons/css/boxicons.min.css"
-// import "./assets/vendor/remixicon/remixicon.css"
 import "remixicon/fonts/remixicon.css"
 import "swiper/css/bundle"
 
@@ -22,6 +21,7 @@ import "./assets/css/style.css"
 // JS
 // Vendor JS Files
   import "bootstrap/dist/js/bootstrap.bundle.min.js"
+  // TODO: migrar librerias a npm
   import "./assets/vendor/isotope-layout/isotope.pkgd.min.js"
 
   // Template Main JS File
