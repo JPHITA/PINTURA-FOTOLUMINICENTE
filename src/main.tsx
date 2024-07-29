@@ -13,7 +13,7 @@ import "./assets/vendor/bootstrap/css/bootstrap.min.css"
 import "./assets/vendor/bootstrap-icons/bootstrap-icons.css"
 import "./assets/vendor/boxicons/css/boxicons.min.css"
 import "./assets/vendor/remixicon/remixicon.css"
-import "./assets/vendor/swiper/swiper-bundle.min.css"
+import "swiper/css/bundle"
 
 // Template Main CSS File
 import "./assets/css/style.css"
@@ -23,7 +23,6 @@ import "./assets/css/style.css"
   import "./assets/vendor/purecounter/purecounter_vanilla.js"
   import "./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
   import "./assets/vendor/isotope-layout/isotope.pkgd.min.js"
-  import "./assets/vendor/swiper/swiper-bundle.min.js"
 
   // Template Main JS File
   import "./assets/js/main.js"
