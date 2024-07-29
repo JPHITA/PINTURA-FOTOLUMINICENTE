@@ -111,6 +111,7 @@
   /**
    * Mobile nav toggle
    */
+  // TODO: pasar logica a un componente y hacer que funcione
   on('click', '.mobile-nav-toggle', function(e) {
     select('#navbar').classList.toggle('navbar-mobile')
     this.classList.toggle('bi-list')
@@ -159,6 +160,7 @@
   /**
    * Preloader
    */
+  // TODO: pasar logica a un componente y hacer que funcione
   let preloader = select('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
@@ -176,6 +178,7 @@
   /**
    * Testimonials slider
    */
+  // TODO: pasar logica a testimonials y hacer que funcione
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
@@ -242,19 +245,19 @@
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
+  // new Swiper('.portfolio-details-slider', {
+  //   speed: 400,
+  //   loop: true,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false
+  //   },
+  //   pagination: {
+  //     el: '.swiper-pagination',
+  //     type: 'bullets',
+  //     clickable: true
+  //   }
+  // });
 
   /**
    * Animation on scroll
