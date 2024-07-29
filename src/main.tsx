@@ -9,7 +9,7 @@ import "./assets/img/apple-touch-icon.png"
 
 // Vendor CSS Files
 import "aos/dist/aos.css"
-import "./assets/vendor/bootstrap/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css"
 import "./assets/vendor/bootstrap-icons/bootstrap-icons.css"
 import "./assets/vendor/boxicons/css/boxicons.min.css"
 import "./assets/vendor/remixicon/remixicon.css"
@@ -20,7 +20,7 @@ import "./assets/css/style.css"
 
 // JS
 // Vendor JS Files
-  import "./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+  import "bootstrap/dist/js/bootstrap.bundle.min.js"
   import "./assets/vendor/isotope-layout/isotope.pkgd.min.js"
 
   // Template Main JS File
