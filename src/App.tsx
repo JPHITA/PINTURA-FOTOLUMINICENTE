@@ -1,16 +1,24 @@
 import AOS from 'aos';
+import { useEffect } from 'react';
+import { useRef } from 'react';
 
 import { Portfolio } from "./components/Portfolio.tsx";
 import { Testimonials } from "./components/Testimonials.tsx";
 
 
 function App() {
+  const preloader = useRef<HTMLDivElement>(null);
+
   AOS.init({
     duration: 1000,
     easing: 'ease-in-out',
     once: true,
     mirror: false
   });
+
+  useEffect(() => {
+    if (preloader.current) preloader.current.remove();
+  }, []);
 
   return (
     <>
@@ -745,7 +753,7 @@ function App() {
       </footer>
       {/* <!-- End Footer --> */}
 
-      {/* <div id="preloader"></div> */}
+      <div id="preloader" ref={preloader}></div>
       <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
 
 

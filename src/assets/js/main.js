@@ -160,13 +160,12 @@
   /**
    * Preloader
    */
-  // TODO: pasar logica a un componente y hacer que funcione
-  let preloader = select('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove()
-    });
-  }
+  // let preloader = select('#preloader');
+  // if (preloader) {
+  //   window.addEventListener('load', () => {
+  //     preloader.remove()
+  //   });
+  // }
 
   /**
    * Initiate glightbox 
