@@ -31,7 +31,11 @@ function App() {
   });
 
   useEffect(() => {
-    if (preloader.current) preloader.current.remove();
+    const t = setTimeout(() => {
+      if (preloader.current) preloader.current.remove();
+    }, 500);
+
+    return () => clearTimeout(t);
   }, []);
 
   return (

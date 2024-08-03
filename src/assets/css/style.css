@@ -6,6 +6,12 @@
 * License: https://bootstrapmade.com/license/
 */
 
+:root{
+  --nav_items_color: #3deffa; /* color para los navitems .active y los logos del navbar */
+  --header_bg: #121212; /* color de fondo del header */
+  --font_color_header: #E0E0E0; /* color de la fuente */
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -118,7 +124,7 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  background: #fff;
+  background: var(--header_bg);
   z-index: 997;
   padding: 15px 0;
   border-bottom: 1px solid #e6f2fb;
@@ -182,7 +188,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 14px;
-  color: #16507b;
+  color: var(--font_color_header);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -198,7 +204,8 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #2487ce;
+  color: var(--nav_items_color);
+  font-weight: 700;
 }
 
 .navbar .getstarted,
@@ -284,7 +291,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #124265;
+  color: var(--nav_items_color);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -293,7 +300,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: var(--nav_items_color);
 }
 
 @media (max-width: 991px) {
@@ -332,7 +339,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: var(--header_bg);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -341,13 +348,13 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #124265;
+  color: var(--font_color_header);
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #2487ce;
+  color: var(--nav_items_color);
 }
 
 .navbar-mobile .getstarted,
