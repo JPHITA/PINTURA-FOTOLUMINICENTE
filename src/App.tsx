@@ -150,7 +150,6 @@ function App() {
       <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
 
 
-      <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
       <script src="./assets/js/main.js"></script>
     </>
   )
