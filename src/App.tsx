@@ -5,6 +5,7 @@ import { useRef } from 'react';
 import { Header } from "./components/Header.tsx";
 import { Hero } from "./components/Hero.tsx";
 import { Video } from "./components/Video.tsx";
+import { Clients } from './components/Clients.tsx';
 // import { Portfolio } from "./components/Portfolio.tsx";
 import { Testimonials } from "./components/Testimonials.tsx";
 import { About } from "./components/About.tsx";
@@ -51,39 +52,7 @@ function App() {
         {/* <!-- End About Video Section --> */}
 
         {/* <!-- ======= Clients Section ======= --> */}
-        <section id="clients" className="clients section-bg">
-          <div className="container">
-
-            <div className="row">
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                <img src="./assets/img/clients/client-1.png" className="img-fluid" alt="" />
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                <img src="./assets/img/clients/client-2.png" className="img-fluid" alt="" />
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                <img src="./assets/img/clients/client-3.png" className="img-fluid" alt="" />
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                <img src="./assets/img/clients/client-4.png" className="img-fluid" alt="" />
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                <img src="./assets/img/clients/client-5.png" className="img-fluid" alt="" />
-              </div>
-
-              <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                <img src="./assets/img/clients/client-6.png" className="img-fluid" alt="" />
-              </div>
-
-            </div>
-
-          </div>
-        </section>
+        <Clients />
         {/* <!-- End Clients Section --> */}
 
         {/* <!-- ======= Testimonials Section ======= --> */}
