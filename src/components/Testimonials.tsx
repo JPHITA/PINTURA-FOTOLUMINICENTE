@@ -98,7 +98,7 @@ export const Testimonials = () => {
                                 <div className="testimonial-item">
                                     <p>
                                         <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore.
                                         <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
                                     <img src={testimonials_4} className="testimonial-img" alt="" />
@@ -112,7 +112,7 @@ export const Testimonials = () => {
                                 <div className="testimonial-item">
                                     <p>
                                         <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam.
                                         <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
                                     <img src={testimonials_5} className="testimonial-img" alt="" />
