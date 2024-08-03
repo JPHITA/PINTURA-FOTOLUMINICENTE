@@ -32,51 +32,29 @@ function App() {
 
   return (
     <>
-      {/* <!-- ======= Header ======= --> */}
       <Header/>
-      {/* <!-- End Header --> */}
 
-      {/* <!-- ======= Hero Section ======= --> */}
       <Hero />
-      {/* <!-- End Hero --> */}
 
       <main id="main">
 
-        {/* <!-- ======= About Section ======= --> */}
         <About />
-        {/* <!-- End About Section --> */}
 
-        {/* <!-- ======= Counts Section ======= --> */}
         <Counts />
-        {/* <!-- End Counts Section --> */}
 
-        {/* <!-- ======= About Video Section ======= --> */}
         <Video />
-        {/* <!-- End About Video Section --> */}
 
-        {/* <!-- ======= Clients Section ======= --> */}
         <Clients />
-        {/* <!-- End Clients Section --> */}
 
-        {/* <!-- ======= Testimonials Section ======= --> */}
-          <Testimonials />
-        {/* <!-- End Testimonials Section --> */}
+        <Testimonials />
 
-        {/* <!-- ======= Services Section ======= --> */}
         <Services />
-        {/* <!-- End Sevices Section --> */}
 
-        {/* <!-- ======= Cta Section ======= --> */}
         <CalltoAction />
-        {/* <!-- End Cta Section --> */}
 
-        {/* <!-- ======= Portfolio Section ======= --> */}
         {/* <Portfolio /> */}
-        {/* <!-- End Portfolio Section --> */}
 
-        {/* <!-- ======= Team Section ======= --> */}
         <Team />
-        {/* <!-- End Team Section --> */}
 
         {/* <!-- ======= Pricing Section ======= --> */}
         <section id="pricing" className="pricing">
