@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { useRef } from 'react';
 
 import { Header } from "./components/Header.tsx";
-import { Portfolio } from "./components/Portfolio.tsx";
+// import { Portfolio } from "./components/Portfolio.tsx";
 import { Testimonials } from "./components/Testimonials.tsx";
 import { About } from "./components/About.tsx";
 import { Counts } from "./components/Counts.tsx";
@@ -273,7 +273,7 @@ function App() {
         {/* <!-- End Cta Section --> */}
 
         {/* <!-- ======= Portfolio Section ======= --> */}
-        <Portfolio />
+        {/* <Portfolio /> */}
         {/* <!-- End Portfolio Section --> */}
 
         {/* <!-- ======= Team Section ======= --> */}

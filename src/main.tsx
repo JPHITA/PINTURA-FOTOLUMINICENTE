@@ -20,12 +20,12 @@ import "./assets/css/style.css"
 
 // JS
 // Vendor JS Files
-  import "bootstrap/dist/js/bootstrap.bundle.min.js"
-  // TODO: migrar librerias a npm
-  import "./assets/vendor/isotope-layout/isotope.pkgd.min.js"
+import "bootstrap/dist/js/bootstrap.bundle.min.js"
 
-  // Template Main JS File
-  import "./assets/js/main.js"
+// import "./assets/vendor/isotope-layout/isotope.pkgd.min.js"
+
+// Template Main JS File
+import "./assets/js/main.js"
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
