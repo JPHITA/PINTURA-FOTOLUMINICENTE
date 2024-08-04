@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 
 // CSS
-// Favicons
-import "./assets/img/favicon.png"
-import "./assets/img/apple-touch-icon.png"
 
 // Vendor CSS Files
 import "aos/dist/aos.css"
