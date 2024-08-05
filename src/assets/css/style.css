@@ -10,6 +10,11 @@
   --nav_items_color: #3deffa; /* color para los navitems .active y los logos del navbar */
   --header_bg: #121212; /* color de fondo del header */
   --font_color_header: #E0E0E0; /* color de la fuente */
+  --color_titulos_principales: #3deffa;  /* color de los titulos principales */
+  --color_titulos_secundarios: #8c94ff;  /* color de los titulos secundarios */
+  --color_texto: #E0E0E0; /* color del texto */
+  
+  --bg_color_1: #242320; /* color de fondo 1 */
 }
 
 /*--------------------------------------------------------------
@@ -428,12 +433,12 @@ h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
-  color: #124265;
+  color: var(--color_titulos_principales);
   font-family: "Poppins", sans-serif;
 }
 
 #hero h2 {
-  color: #5e5e5e;
+  color: var(--color_titulos_secundarios);
   margin: 10px 0 0 0;
   font-size: 22px;
 }
@@ -464,7 +469,7 @@ h6 {
   padding: 50px 30px;
   position: relative;
   overflow: hidden;
-  background: #fff;
+  background: var(--bg_color_1);
   box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -478,7 +483,7 @@ h6 {
 }
 
 #hero .icon-box .title a {
-  color: #124265;
+  color: var(--color_titulos_principales);
   transition: 0.3s;
 }
 
@@ -486,6 +491,7 @@ h6 {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  color: var(--color_texto);
 }
 
 #hero .icon-box .icon {
@@ -495,7 +501,11 @@ h6 {
   transition: all 0.3s ease-in-out;
   font-size: 36px;
   line-height: 1;
-  color: #2487ce;
+  color: var(--color_titulos_principales);
+}
+
+#hero .icon-box:hover .icon{
+  color: var(--color_titulos_secundarios);
 }
 
 #hero .icon-box:hover {
@@ -503,7 +513,7 @@ h6 {
 }
 
 #hero .icon-box:hover .title a {
-  color: #2487ce;
+  color: var(--color_titulos_secundarios);
 }
 
 @media (min-width: 1024px) {
