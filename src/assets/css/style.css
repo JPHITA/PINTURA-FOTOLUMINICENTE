@@ -15,6 +15,7 @@
   --color_texto: #E0E0E0; /* color del texto */
   
   --bg_color_1: #242320; /* color de fondo 1 */
+  --bg_color_2: #1a1a17; /* color de fondo 2 */
 }
 
 /*--------------------------------------------------------------
@@ -550,10 +551,11 @@ h6 {
 section {
   padding: 80px 0;
   overflow: hidden;
+  background: var(--bg_color_1);
 }
 
 .section-bg {
-  background-color: #f8fbfe;
+  background-color: var(--bg_color_2);
 }
 
 .section-title {
@@ -567,13 +569,17 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #124265;
+  color: var(--color_titulos_principales);
 }
 
 .section-title p {
   margin-bottom: 0;
   font-size: 14px;
-  color: #919191;
+  color: var(--color_titulos_secundarios);
+}
+
+p {
+  color: var(--color_texto);
 }
 
 /*--------------------------------------------------------------
@@ -592,6 +598,7 @@ section {
 .about .content ul li {
   padding-left: 28px;
   position: relative;
+  color: var(--color_texto);
 }
 
 .about .content ul li+li {
