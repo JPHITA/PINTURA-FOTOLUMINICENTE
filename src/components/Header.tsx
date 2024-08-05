@@ -78,7 +78,7 @@ export const Header = () => {
                                     )
                                 })
                             }
-                            <li><a onClick={() => handle_click_navMobileLink()} className="getstarted scrollto" href="#about">Get Started</a></li>
+                            <li><a onClick={() => handle_click_navMobileLink()} className="getstarted scrollto" href="#about">Comencemos</a></li>
                         </ul>
                         <i className="bi bi-list mobile-nav-toggle"
                             onClick={handleClick_mobileNavToggle}
