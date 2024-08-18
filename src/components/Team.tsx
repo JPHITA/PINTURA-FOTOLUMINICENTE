@@ -1,3 +1,5 @@
+import "./../assets/css/Team.css";
+
 import team_1 from "./../assets/img/team/team-1.jpg"
 import team_2 from "./../assets/img/team/team-2.jpg"
 import team_3 from "./../assets/img/team/team-3.jpg"
