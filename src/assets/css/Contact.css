@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 .contact .info {
     width: 100%;
-    background: #fff;
+    background: var(--bg_color_1);
   }
   
   .contact .info i {
@@ -49,7 +49,7 @@
   
   .contact .php-email-form {
     width: 100%;
-    background: #fff;
+    background: var(--bg_color_1);
   }
   
   .contact .php-email-form .form-group {
