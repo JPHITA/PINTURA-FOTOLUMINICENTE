@@ -1,4 +1,4 @@
-
+import "./../assets/css/About.css";
 
 export const About = () => {
 
