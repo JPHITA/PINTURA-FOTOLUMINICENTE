@@ -4,7 +4,7 @@ import { useRef } from 'react';
 
 import { Header } from "./components/Header.tsx";
 import { Hero } from "./components/Hero.tsx";
-import { Video } from "./components/Video.tsx";
+// import { Video } from "./components/Video.tsx";
 import { Clients } from './components/Clients.tsx';
 // import { Portfolio } from "./components/Portfolio.tsx";
 import { Testimonials } from "./components/Testimonials.tsx";
@@ -52,9 +52,13 @@ function App() {
 
         <Counts />
 
-        <Video />
+        <Pricing />
+
+        {/* <Video /> */}
 
         <Clients />
+
+        <Contact />
 
         <Testimonials />
 
@@ -64,11 +68,7 @@ function App() {
 
         {/* <Portfolio /> */}
 
-        <Pricing />
-
         <Faq />
-
-        <Contact />
 
       </main>
       {/* <!-- End #main --> */}
