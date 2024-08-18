@@ -1,6 +1,6 @@
 import { useRef, useState } from "react"
 
-import logo from "./../assets/img/Logo.png";
+import logo from "./../assets/img/Logo2.png";
 
 
 interface navItem {
