@@ -48,6 +48,8 @@ function App() {
 
         <About />
 
+        <Team />
+
         <Counts />
 
         <Video />
@@ -61,8 +63,6 @@ function App() {
         <CalltoAction />
 
         {/* <Portfolio /> */}
-
-        <Team />
 
         <Pricing />
 
