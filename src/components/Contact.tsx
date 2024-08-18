@@ -1,3 +1,4 @@
+import "./../assets/css/Contact.css";
 
 
 export const Contact = () => {
@@ -21,8 +22,8 @@ export const Contact = () => {
                             <div className="info">
                                 <div className="address">
                                     <i className="bi bi-geo-alt"></i>
-                                    <h4>Location:</h4>
-                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                    <h4>Localización:</h4>
+                                    <p>Zona franca de Rio Negro</p>
                                 </div>
 
                                 <div className="email">
@@ -33,8 +34,8 @@ export const Contact = () => {
 
                                 <div className="phone">
                                     <i className="bi bi-phone"></i>
-                                    <h4>Call:</h4>
-                                    <p>+1 5589 55488 55s</p>
+                                    <h4>Telefono:</h4>
+                                    <p>+57 300 0000 000</p>
                                 </div>
 
                             </div>
