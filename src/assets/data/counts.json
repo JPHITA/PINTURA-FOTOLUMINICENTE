@@ -1,0 +1,7 @@
+[
+    { "start": 0, "end": 74, "percentaje": true, "description": "De tramos viales no urbanos con posible falta de iluminación"},
+    { "start": 0, "end": 83, "percentaje": true, "description": "De las vías colombianas tienen iluminación deficiente o inexistente"},
+    { "start": 0, "end": 3, "percentaje": true, "description": "De los accidentes de tránsito fueron ocasionados por vías con infraestructura e iluminación deficiente"},
+    { "start": 0, "end": 18000, "percentaje": false, "description": "Luminarias LED presentaron fallas técnicas durante el 2023, en Medellín"},
+    { "start": 0, "end": 460, "percentaje": false, "description": "luminarias no están en condiciones de operación óptimas en Giraldo, Antioquia"}
+]
