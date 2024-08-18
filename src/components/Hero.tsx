@@ -1,4 +1,4 @@
-
+import "./../assets/css/Hero.css";
 
 export const Hero = () => {
     return (
