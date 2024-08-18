@@ -27,7 +27,7 @@
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-size: 14px;
-    color: var(--font_color_header);
+    color: var(--font_color);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -187,7 +187,7 @@
   .navbar-mobile a:focus {
     padding: 10px 20px;
     font-size: 15px;
-    color: var(--font_color_header);
+    color: var(--font_color);
   }
   
   .navbar-mobile a:hover,

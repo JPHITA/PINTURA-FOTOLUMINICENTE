@@ -6,8 +6,9 @@
     overflow: hidden;
     text-align: center;
     border-radius: 4px;
-    background: #fff;
-    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+    background: var(--bg_color_1);
+    box-shadow: 0px 0px 8px 3px rgb(108 108 108 / 82%);
+    border: 1px solid white;
   }
   
   .team .member .member-img {
@@ -55,14 +56,14 @@
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 18px;
-    color: #124265;
+    color: var(--color_titulos_principales);
   }
   
   .team .member .member-info span {
     display: block;
     font-size: 13px;
     font-weight: 400;
-    color: #aaaaaa;
+    color: var(--font_color);
   }
   
   .team .member .member-info p {

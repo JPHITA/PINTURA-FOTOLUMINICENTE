@@ -9,7 +9,7 @@
 :root{
   --nav_items_color: #3deffa; /* color para los navitems .active y los logos del navbar */
   --header_bg: #121212; /* color de fondo del header */
-  --font_color_header: #E0E0E0; /* color de la fuente */
+  --font_color: #E0E0E0; /* color de la fuente */
   --color_titulos_principales: #3deffa;  /* color de los titulos principales */
   --color_titulos_secundarios: #8c94ff;  /* color de los titulos secundarios */
   --color_texto: #E0E0E0; /* color del texto */
