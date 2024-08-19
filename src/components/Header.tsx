@@ -14,7 +14,7 @@ export const Header = () => {
 
     const navbar = useRef<HTMLElement>(null);
     const mobile_nav_toggle = useRef<HTMLElement>(null);
-    const header = useRef<HTMLElement>(null);
+    // const header = useRef<HTMLElement>(null);
 
     function handleClick_mobileNavToggle() {
         navbar.current!.classList.toggle('navbar-mobile')
@@ -53,7 +53,7 @@ export const Header = () => {
 
     return (
         <>
-            <header ref={header} id="header" className="fixed-top">
+            <header id="header" className="fixed-top">
                 <div className="container d-flex align-items-center justify-content-between">
 
                     {/* <h1 className="logo"><a href="index.html">OnePage</a></h1> */}
