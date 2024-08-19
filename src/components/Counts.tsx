@@ -4,8 +4,9 @@ import { useEffect } from "react";
 
 import "./../assets/css/Counts.css";
 import counts_data from "./../assets/data/counts.json";
+import video from "./../assets/video/Video 1.mp4";
 
-interface Count{
+interface Count {
     start: number;
     end: number;
     percentaje: boolean;
@@ -14,7 +15,7 @@ interface Count{
 
 export const Counts = () => {
 
-    useEffect(() => { new PureCounter({decimals: 0}); }, []);
+    useEffect(() => { new PureCounter({ decimals: 0 }); }, []);
 
     const counts: Count[] = counts_data;
 
@@ -34,18 +35,43 @@ export const Counts = () => {
                             counts.map((c, index) => (
                                 <div key={index} className="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                                     <div className="count-box">
-                                        <span 
-                                         className={"purecounter" + (c.percentaje ? " percentaje" : "")}
-                                         data-purecounter-start={c.start}
-                                         data-purecounter-end={c.end}
-                                         data-purecounter-duration="2"
-                                         ></span>
+                                        <span
+                                            className={"purecounter" + (c.percentaje ? " percentaje" : "")}
+                                            data-purecounter-start={c.start}
+                                            data-purecounter-end={c.end}
+                                            data-purecounter-duration="2"
+                                        ></span>
                                         <p>{c.description}</p>
                                     </div>
                                 </div>
                             ))
                         }
 
+                    </div>
+
+                    <div className="row pt-5">
+
+                        <div className="col-lg-6 col-md-6 col-sm-12 text-center">
+                            <video
+                                className="video-problema"
+                                src={video}
+                                autoPlay
+                                muted
+                                controls={false}
+                            ></video>
+                        </div>
+
+                        <div className="col-lg-6 col-md-6 col-sm-12">
+                            <div className="section-title">
+                                {/* <h2>Antigua via al mar</h2> */}
+                                <p id="titulo-video-problema">Antigua Via al Mar</p>
+                            </div>
+                            <ul>
+                                <li><i className="ri-arrow-right-double-fill"></i> Muy pobre dotación de luminarias</li>
+                                <li><i className="ri-arrow-right-double-fill"></i> Sin demarcaciones horizontales</li>
+                                <li><i className="ri-arrow-right-double-fill"></i> Es apenas uno de los tantos ejemplos de vias con falta de iluminación</li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>

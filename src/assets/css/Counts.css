@@ -2,39 +2,72 @@
 # Counts
 --------------------------------------------------------------*/
 .counts {
-    padding: 60px 0;
-  }
-  
-  .counts .count-box {
-    width: 100%;
-    text-align: center;
-  }
-  
-  .counts .count-box span {
-    font-size: 48px;
-    line-height: 48px;
-    display: block;
-    font-weight: 700;
-    color: var(--color_titulos_principales);
-    margin-left: 80px;
-    margin: auto;
-  }
-  
-  .counts .count-box p {
-    padding: 8px 0 0 0;
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    color: var(--color_titulos_secundarios);
-  }
+  padding: 60px 0;
+}
 
-  .counts .count-box .purecounter.percentaje::after {
-    content: ' %';
-    font-size: 20px;
-    color: var(--color_titulos_principales);
-    top: -5px;
-  }
+.counts .count-box {
+  width: 100%;
+  text-align: center;
+}
 
-  .count-box .purecounter:not(.percentaje) {
-    margin-bottom: 11px;
-  }
+.counts .count-box span {
+  font-size: 48px;
+  line-height: 48px;
+  display: block;
+  font-weight: 700;
+  color: var(--color_titulos_principales);
+  margin-left: 80px;
+  margin: auto;
+}
+
+.counts .count-box p {
+  padding: 8px 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--color_titulos_secundarios);
+}
+
+.counts .count-box .purecounter.percentaje::after {
+  content: ' %';
+  font-size: 20px;
+  color: var(--color_titulos_principales);
+  top: -5px;
+}
+
+.count-box .purecounter:not(.percentaje) {
+  margin-bottom: 11px;
+}
+
+.counts .video-problema {
+  height: 450px;
+}
+
+.counts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.counts ul li {
+  padding-left: 28px;
+  position: relative;
+  color: var(--color_texto);
+}
+
+.counts ul li+li {
+  margin-top: 10px;
+}
+
+.counts ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #ce245d;
+  line-height: 1;
+}
+
+.counts #titulo-video-problema{
+  font-size: 20px;
+  font-weight: 700;
+}
