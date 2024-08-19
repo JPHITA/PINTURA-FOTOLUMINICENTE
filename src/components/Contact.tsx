@@ -8,7 +8,7 @@ export const Contact = () => {
                 <div className="container" data-aos="fade-up">
 
                     <div className="section-title">
-                        <h2>Contact</h2>
+                        <h2>Contacto</h2>
                         <p></p>
                     </div>
 
@@ -44,26 +44,26 @@ export const Contact = () => {
 
                         <div className="col-lg-8 mt-5 mt-lg-0">
 
-                            <form action="#" method="post" role="form" className="php-email-form">
+                            <form action="#" method="post" role="form" className="php-email-form" onSubmit={(e) => e.preventDefault()}>
                                 <div className="row gy-2 gx-md-3">
                                     <div className="col-md-6 form-group">
-                                        <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
+                                        <input type="text" name="name" className="form-control" id="name" placeholder="Nombre" required />
                                     </div>
                                     <div className="col-md-6 form-group">
-                                        <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required />
+                                        <input type="email" className="form-control" name="email" id="email" placeholder="Email" required />
                                     </div>
                                     <div className="form-group col-12">
-                                        <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required />
+                                        <input type="text" className="form-control" name="subject" id="subject" placeholder="Asunto" required />
                                     </div>
                                     <div className="form-group col-12">
-                                        <textarea className="form-control" name="message" rows={5} placeholder="Message" required></textarea>
+                                        <textarea className="form-control" name="message" rows={5} placeholder="Mensaje" required></textarea>
                                     </div>
                                     <div className="my-3 col-12">
-                                        <div className="loading">Loading</div>
+                                        <div className="loading">Cargando</div>
                                         <div className="error-message"></div>
-                                        <div className="sent-message">Your message has been sent. Thank you!</div>
+                                        <div className="sent-message">Tu mensaje ha sido enviado</div>
                                     </div>
-                                    <div className="text-center col-12"><button type="submit">Send Message</button></div>
+                                    <div className="text-center col-12"><button type="submit">Enviar</button></div>
                                 </div>
                             </form>
 
