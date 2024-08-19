@@ -8,12 +8,11 @@ import { Hero } from "./components/Hero.tsx";
 import { Clients } from './components/Clients.tsx';
 // import { Portfolio } from "./components/Portfolio.tsx";
 import { Testimonials } from "./components/Testimonials.tsx";
-import { Services } from './components/Services.tsx';
+import { Producto } from './components/Producto.tsx';
 import { About } from "./components/About.tsx";
 import { Problema_a_resolver } from "./components/Problema_a_resolver.tsx";
 import { CalltoAction } from './components/CalltoAction.tsx';
 import { Team } from "./components/Team.tsx";
-import { Producto } from "./components/Producto.tsx";
 import { Pricing } from './components/Pricing.tsx';
 import { Faq } from "./components/Faq.tsx";
 import { Contact } from './components/Contact.tsx';
@@ -71,8 +70,6 @@ function App() {
         <Contact />
 
         <Testimonials />
-
-        <Services />
 
         <CalltoAction />
 
