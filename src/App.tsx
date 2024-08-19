@@ -10,7 +10,7 @@ import { Clients } from './components/Clients.tsx';
 import { Testimonials } from "./components/Testimonials.tsx";
 import { Services } from './components/Services.tsx';
 import { About } from "./components/About.tsx";
-import { Counts } from "./components/Counts.tsx";
+import { Problema_a_resolver } from "./components/Problema_a_resolver.tsx";
 import { CalltoAction } from './components/CalltoAction.tsx';
 import { Team } from "./components/Team.tsx";
 import { Pricing } from './components/Pricing.tsx';
@@ -50,7 +50,7 @@ function App() {
 
         <Team />
 
-        <Counts />
+        <Problema_a_resolver />
 
         <Pricing />
 

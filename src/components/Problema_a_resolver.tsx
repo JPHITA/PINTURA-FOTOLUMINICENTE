@@ -2,8 +2,8 @@
 import PureCounter from "@srexi/purecounterjs";
 import { useEffect } from "react";
 
-import "./../assets/css/Counts.css";
-import counts_data from "./../assets/data/counts.json";
+import "./../assets/css/Problema_a_resolver.css";
+import counts_data from "../assets/data/counts.json";
 import video from "./../assets/video/Video 1.mp4";
 
 interface Count {
@@ -13,7 +13,7 @@ interface Count {
     description: string;
 }
 
-export const Counts = () => {
+export const Problema_a_resolver = () => {
 
     useEffect(() => { new PureCounter({ decimals: 0 }); }, []);
 
@@ -69,7 +69,7 @@ export const Counts = () => {
                             <ul>
                                 <li><i className="ri-arrow-right-double-fill"></i> Muy pobre dotación de luminarias</li>
                                 <li><i className="ri-arrow-right-double-fill"></i> Sin demarcaciones horizontales</li>
-                                <li><i className="ri-arrow-right-double-fill"></i> Es apenas uno de los tantos ejemplos de vias con falta de iluminación</li>
+                                <li><i className="ri-arrow-right-double-fill"></i> Es apenas uno de los tantos ejemplos de vías con falta de iluminación</li>
                             </ul>
                         </div>
                     </div>
