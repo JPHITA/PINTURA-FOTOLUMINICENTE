@@ -18,14 +18,6 @@ import { Pricing } from './components/Pricing.tsx';
 import { Contact } from './components/Contact.tsx';
 // import { Footer } from './components/Footer.tsx';
 
-// about us
-// equipo
-// problema a tratar
-// producto
-// precio
-// empresas aliadas
-// contact
-
 
 function App() {
   const preloader = useRef<HTMLDivElement>(null);

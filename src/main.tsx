@@ -14,6 +14,7 @@ import "swiper/css/bundle"
 
 // Template Main CSS File
 import "./assets/css/style.css"
+import "./assets/css/Header.css";
 
 // JS
 // Vendor JS Files

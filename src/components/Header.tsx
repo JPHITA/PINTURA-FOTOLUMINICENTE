@@ -1,7 +1,7 @@
 import { useRef, useState } from "react"
 
 import logo from "./../assets/img/Logo2.png";
-import "./../assets/css/Header.css";
+// import "./../assets/css/Header.css";
 
 
 interface navItem {
