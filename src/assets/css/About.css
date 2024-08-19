@@ -59,3 +59,8 @@
   .about .content p {
     text-align: justify;
   }
+
+  .about .img-pintura{
+    border-radius: 10px;
+    
+  }

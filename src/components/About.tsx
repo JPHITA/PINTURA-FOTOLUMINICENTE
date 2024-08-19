@@ -1,5 +1,7 @@
 import "./../assets/css/About.css";
 
+import imagen from "./../assets/img/imagen pintura.jpg";
+
 export const About = () => {
 
     return (
@@ -15,10 +17,10 @@ export const About = () => {
                     <div className="row content">
                         <div className="col-lg-6">
                             <p>
-                            Somos un equipo de ingenieros comprometidos con la innovación y la sostenibilidad,
-                            le apostamos al desarrollo y producción de soluciones de pintura fotoluminiscente 
-                            con el fin de ofrecer un producto de alta calidad que contribuya a mejorar la seguridad vial y
-                            reducir el consumo energético
+                                Somos un equipo de ingenieros comprometidos con la innovación y la sostenibilidad,
+                                le apostamos al desarrollo y producción de soluciones de pintura fotoluminiscente
+                                con el fin de ofrecer un producto de alta calidad que contribuya a mejorar la seguridad vial y
+                                reducir el consumo energético.
                             </p>
                             {/* <ul>
                                 <li><i className="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
@@ -29,11 +31,17 @@ export const About = () => {
                         <div className="col-lg-6 pt-4 pt-lg-0">
                             <p>
                                 Nos destacamos por nuestra capacidad de innovación y adaptación a las necesidades del mercado,
-                                ofreciendo soluciones personalizadas para cada proyecto. 
+                                ofreciendo soluciones personalizadas para cada proyecto.
                                 Nuestra visión es ser líderes en la industria de pinturas fotoluminiscentes,
                                 marcando la diferencia en la seguridad y eficiencia energética.
                             </p>
                             {/* <a href="#" className="btn-learn-more">Learn More</a> */}
+                        </div>
+                    </div>
+
+                    <div className="row justify-content-center pt-lg-5 pt-3">
+                        <div className="col-lg-6 col-md-6 col-sm-8 d-flex align-items-center justify-content-center">
+                            <img className="img-fluid img-pintura" src={imagen} alt="" />
                         </div>
                     </div>
 
