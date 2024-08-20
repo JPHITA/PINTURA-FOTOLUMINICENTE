@@ -1,16 +1,16 @@
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
-.counts {
+.problema {
   padding: 60px 0;
 }
 
-.counts .count-box {
+.problema .count-box {
   width: 100%;
   text-align: center;
 }
 
-.counts .count-box span {
+.problema .count-box span {
   font-size: 48px;
   line-height: 48px;
   display: block;
@@ -20,7 +20,7 @@
   margin: auto;
 }
 
-.counts .count-box p {
+.problema .count-box p {
   padding: 8px 0 0 0;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -28,7 +28,7 @@
   color: var(--color_titulos_secundarios);
 }
 
-.counts .count-box .purecounter.percentaje::after {
+.problema .count-box .purecounter.percentaje::after {
   content: ' %';
   font-size: 20px;
   color: var(--color_titulos_principales);
@@ -39,26 +39,26 @@
   margin-bottom: 11px;
 }
 
-.counts .video-problema {
+.problema .video-problema {
   height: 400px;
 }
 
-.counts ul {
+.problema ul {
   list-style: none;
   padding: 0;
 }
 
-.counts ul li {
+.problema ul li {
   padding-left: 28px;
   position: relative;
   color: var(--color_texto);
 }
 
-.counts ul li+li {
+.problema ul li+li {
   margin-top: 10px;
 }
 
-.counts ul i {
+.problema ul i {
   position: absolute;
   left: 0;
   top: 2px;
@@ -67,7 +67,7 @@
   line-height: 1;
 }
 
-.counts #titulo-video-problema{
+.problema #titulo-video-problema{
   font-size: 20px;
   font-weight: 700;
 }

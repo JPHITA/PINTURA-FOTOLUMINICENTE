@@ -6,6 +6,7 @@
     padding: 30px 20px 30px 20px;
     transition: all ease-in-out 0.3s;
     background: var(--bg_color_1);
+    width: 100%;
 }
 
 .producto .icon-box .icon {

@@ -21,7 +21,7 @@ export const Problema_a_resolver = () => {
 
     return (
         <>
-            <section id="counts" className="counts">
+            <section id="problema" className="problema">
                 <div className="container">
 
                     <div className="section-title">
