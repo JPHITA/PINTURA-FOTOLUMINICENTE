@@ -42,13 +42,14 @@ export const Header = () => {
     }
 
     const [navItems, setNavItems] = useState<navItem[]>([
-        { name: "Home", href: "#hero", active: true },
-        { name: "About", href: "#about", active: false },
-        { name: "Services", href: "#services", active: false },
-        // { name: "Portfolio", href: "#portfolio", active: false },
-        { name: "Team", href: "#team", active: false },
-        { name: "Pricing", href: "#pricing", active: false },
-        { name: "Contact", href: "#contact", active: false }
+        { name: "Pintura Fotoluminicente", href: "#hero", active: true },
+        { name: "Sobre el Proyecto", href: "#about", active: false },
+        { name: "Equipo", href: "#team", active: false },
+        { name: "Problema", href: "#problema", active: false },
+        { name: "Producto", href: "#producto", active: false },
+        { name: "Precio", href: "#pricing", active: false },
+        { name: "Publico objetivo", href: "#clients", active: false },
+        { name: "Contacto", href: "#contact", active: false },
     ]);
 
     return (
@@ -79,7 +80,7 @@ export const Header = () => {
                                     )
                                 })
                             }
-                            <li><a onClick={() => handle_click_navMobileLink()} className="getstarted scrollto" href="#about">Comencemos</a></li>
+                            {/* <li><a onClick={() => handle_click_navMobileLink()} className="getstarted scrollto" href="#about">Comencemos</a></li> */}
                         </ul>
                         <i className="bi bi-list mobile-nav-toggle"
                             onClick={handleClick_mobileNavToggle}
