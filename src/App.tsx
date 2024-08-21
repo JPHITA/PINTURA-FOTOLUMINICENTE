@@ -5,7 +5,7 @@ import { useRef } from 'react';
 import { Header } from "./components/Header.tsx";
 import { Hero } from "./components/Hero.tsx";
 // import { Video } from "./components/Video.tsx";
-// import { Clients } from './components/Clients.tsx';
+import { Clients } from './components/Clients.tsx';
 // import { Portfolio } from "./components/Portfolio.tsx";
 // import { Testimonials } from "./components/Testimonials.tsx";
 import { Producto } from './components/Producto.tsx';
@@ -13,9 +13,9 @@ import { About } from "./components/About.tsx";
 import { Problema_a_resolver } from "./components/Problema_a_resolver.tsx";
 // import { CalltoAction } from './components/CalltoAction.tsx';
 import { Team } from "./components/Team.tsx";
-// import { Pricing } from './components/Pricing.tsx';
-// import { Faq } from "./components/Faq.tsx";
-// import { Contact } from './components/Contact.tsx';
+import { Pricing } from './components/Pricing.tsx';
+import { Faq } from "./components/Faq.tsx";
+import { Contact } from './components/Contact.tsx';
 // import { Footer } from './components/Footer.tsx';
 
 
@@ -25,7 +25,7 @@ function App() {
   AOS.init({
     duration: 1000,
     easing: 'ease-in-out',
-    once: true,
+    once: false,
     mirror: false
   });
 
@@ -53,21 +53,13 @@ function App() {
 
         <Producto />
 
-        {/* <Pricing />
+        <Pricing />
 
         <Clients />
 
-        <Contact /> */}
+        <Faq />
 
-        {/* <Video /> */}
-
-        {/* <Testimonials /> */}
-
-        {/* <CalltoAction /> */}
-
-        {/* <Portfolio /> */}
-
-        {/* <Faq /> */}
+        <Contact />
 
       </main>
       {/* <!-- End #main --> */}
