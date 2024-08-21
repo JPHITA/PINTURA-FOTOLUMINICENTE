@@ -49,6 +49,7 @@ export const Header = () => {
         { name: "Producto", href: "#producto", active: false },
         { name: "Precio", href: "#pricing", active: false },
         { name: "Publico objetivo", href: "#clients", active: false },
+        { name: "FAQ", href: "#faq", active: false },
         { name: "Contacto", href: "#contact", active: false },
     ]);
 
