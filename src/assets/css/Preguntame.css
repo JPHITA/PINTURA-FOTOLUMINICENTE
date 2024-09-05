@@ -12,7 +12,6 @@
     cursor: pointer;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
-    display: block;
 }
 
 .chat-button:hover {
@@ -25,12 +24,35 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 450px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 100;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .chat-window {
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        right: 0;
+        z-index: 1000;
+    }
+    
+}
+
+@media screen and (orientation: landscape) and (max-width: 1000px) {
+    .chat-window {
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        right: 0;
+        z-index: 1000;
+    }
+    
 }
 
 .chat-window-header {
@@ -45,6 +67,39 @@
 
 .chat-window-body {
     padding: 10px;
-    height: calc(100% - 40px);
+    flex-grow: 1;
     overflow-y: auto;
+}
+
+/* Estilos para la barra de entrada de texto */
+.chat-input-container {
+    display: flex;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.chat-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.send-button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+    background-color: #005f6b;
 }

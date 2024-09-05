@@ -15,7 +15,7 @@ export const Preguntame = () => {
             role: "user",
             parts: [{
                 text: "Hola"
-            }] 
+            }]
         },
         {
             role: "bot",
@@ -46,7 +46,7 @@ export const Preguntame = () => {
 
     // async function open_chat() {
     //     setChatOpen(true);
-        
+
     //     // si solo hay un mensaje, enviar primer mensaje
     //     if (mensajes.length === 1) {
     //         const res_chat = await fetch_chat(mensajes);
@@ -70,7 +70,7 @@ export const Preguntame = () => {
                 💬
             </button>
 
-            <div className="chat-window" style={{ display: chat_open ? 'block' : 'none' }}>
+            <div className="chat-window" style={{ display: chat_open ? 'flex' : 'none' }}>
                 <div className="chat-window-header">
                     <div className="row">
                         <div className="col-10 text-start">
@@ -82,16 +82,44 @@ export const Preguntame = () => {
                     </div>
                 </div>
 
-                <div className="chat-window-body">
-                    {
-                        mensajes.slice(1).map((mensaje, i) => (
-                            <div key={i} className={`chat-message ${mensaje.role}`}>
-                                {
-                                    <p >{mensaje.parts[0].text}</p>
-                                }
-                            </div>
-                        ))
-                    }
+                <div className="chat-window-body" id="chatBody">
+                    {/* <!-- Contenido del chat --> */}
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                </div>
+
+                <div className="chat-input-container">
+                    <textarea rows={1} className="chat-input" placeholder="Escribeme tu pregunta ..." />
+                    <button className="send-button"><i className="bi bi-send"></i></button>
                 </div>
             </div>
         </>
