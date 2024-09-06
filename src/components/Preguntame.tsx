@@ -1,6 +1,6 @@
 import "./../assets/css/Preguntame.css";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
 interface ChatMessage {
     role: string;
@@ -9,56 +9,69 @@ interface ChatMessage {
 
 export const Preguntame = () => {
 
+    const chat_body = useRef<HTMLDivElement>(null);
+
     const [chat_open, setChatOpen] = useState(false);
+    const [chat_input, setChatInput] = useState<string>("");
     const [mensajes, setMensajes] = useState<ChatMessage[]>([
         {
-            role: "user",
-            parts: [{
-                text: "Hola"
-            }]
-        },
-        {
-            role: "bot",
+            role: "model",
             parts: [{
                 text: "Hola, puedes preguntarme lo que quieras sobre el proyecto Pintura Fotoluminicente"
             }]
         }
     ]);
 
-    // async function fetch_chat(mensajes: ChatMessage[]) {
-    //     const API_key = "AIzaSyBHvdnUc6b9iKImFGmYZK8_27_M7yAfjho";
+    async function fetch_chat(mensajes: ChatMessage[]) {
+        const API_key = "AIzaSyBHvdnUc6b9iKImFGmYZK8_27_M7yAfjho";
 
-    //         const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_key}`,
-    //             {
-    //                 method: "POST",
-    //                 headers: {
-    //                     "Content-Type": "application/json"
-    //                 },
-    //                 body: JSON.stringify({
-    //                     contents: mensajes
-    //                 })
-    //             }
-    //         );
+            const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_key}`,
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        contents: mensajes
+                    })
+                }
+            );
 
-    //         return res.json();
+            const data = await res.json();
 
-    // }
+            setMensajes([
+                ...mensajes,
+                {
+                    role: "model",
+                    parts: data.candidates[0].content.parts
+                }
+            ]);
 
-    // async function open_chat() {
-    //     setChatOpen(true);
+    }
 
-    //     // si solo hay un mensaje, enviar primer mensaje
-    //     if (mensajes.length === 1) {
-    //         const res_chat = await fetch_chat(mensajes);
+    function scrollToBottom() {
+        chat_body.current?.scrollTo({
+            top: chat_body.current.scrollHeight,
+            behavior: "smooth"
+        });
+    }
 
-    //         console.log(res_chat);
+    function send_message() {
 
-    //         setMensajes([
-    //             ...mensajes,
-    //             { role: "bot", parts: res_chat.candidates[0].content.parts }
-    //         ]);
-    //     }
-    // }
+        if (chat_input.trim() === "") return;
+
+        const nuevos_mensajes = [
+            ...mensajes,
+            { role: "user", parts: [{ text: chat_input }] }
+        ]
+
+        setMensajes(nuevos_mensajes);
+        setChatInput("");
+
+        fetch_chat(nuevos_mensajes);
+    }
+
+    useEffect(scrollToBottom, [mensajes]);
 
     return (
         <>
@@ -82,44 +95,33 @@ export const Preguntame = () => {
                     </div>
                 </div>
 
-                <div className="chat-window-body" id="chatBody">
-                    {/* <!-- Contenido del chat --> */}
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
-                    <p>Bienvenido al chat. ¿En qué podemos ayudarte?</p>
+                <div className="chat-window-body" ref={chat_body}>
+                    <div className="row">
+
+                        {mensajes.map((mensaje, i) => (
+                            <div key={i} className={"row justify-content-" + ( mensaje.role === "user" ? "end" : "start" )}>
+                                <div className="col-11">
+                                    <div className={`chat-message ${mensaje.role} text-${mensaje.role === "user" ? "end" : "start"}`}>
+
+                                        {mensaje.parts[0].text}
+
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+
+                    </div>
                 </div>
 
                 <div className="chat-input-container">
-                    <textarea rows={1} className="chat-input" placeholder="Escribeme tu pregunta ..." />
-                    <button className="send-button"><i className="bi bi-send"></i></button>
+                    <textarea
+                     rows={1}
+                     className="chat-input"
+                     placeholder="Escribeme tu pregunta ..."
+                    value={chat_input}
+                    onChange={(e) => setChatInput(e.target.value)}
+                    />
+                    <button className="send-button" onClick={send_message}><i className="bi bi-send"></i></button>
                 </div>
             </div>
         </>
