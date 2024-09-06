@@ -1,0 +1,256 @@
+﻿
+
+
+Pintura Fotoluminiscente: Respuesta Innovadora al Déficit de Alumbrado
+
+Barrios Molina, Mariana
+Cataño Cardeño, Stiwar Albeiro
+Henao Arroyave, Andrea
+Julio Herazo, María Fernanda
+Martínez Montillo, José Luis
+Piedrahíta Salas, Juan Nicolás
+Restrepo Ocampo, Sara
+Sánchez Patiño, Daniela
+
+
+
+
+   Docente:
+ Gustavo Adolfo Viana Casas 
+
+
+
+
+    Entrega No. 2
+
+
+
+
+Fecha de entrega: 
+Agosto 11 de 2024
+
+
+
+Proyecto Integrado en Ingeniería – Universidad Nacional de Colombia
+
+Tabla de contenido
+
+1.	Planteamiento del Proyecto	3
+1.1	Definición	3
+1.2	Antecedentes y estado del arte	3
+2.	Marco lógico	4
+2.1	Árbol de Oportunidades	4
+2.2	Árbol de Objetivos	5
+2.3	Análisis de Involucrados	5
+2.4	Alternativas	5
+2.4.1 Análisis de la alternativa	5
+3.	Estudio de Mercado	6
+3.1. Caracterización del bien	6
+3.2. Caracterización del público objetivo	7
+3.2. Demanda	7
+3.3. Oferta	8
+3.4. Precio	9
+3.5. Plaza	9
+3.6. Promoción	10
+4.	Estudio Técnico	11
+4.1. Principio de funcionamiento	11
+4.2. Propiedades esperadas	11
+4.3. Materias primas	12
+4.4. Fórmula	12
+4.5. Proceso de producción	13
+4.6. Distribución de la planta	15
+4.7. Tratamiento de residuos generados en la planta	15
+4.8. Equipo del proyecto y SST (Seguridad y Salud en el Trabajo)	16
+5.	Macro y Micro localización	16
+5.1	Macrolocalización	16
+5.2	Microlocalización	17
+Referencias	19
+Anexos	26
+
+1. Planteamiento del Proyecto
+1.1 Definición
+Aprovechamiento de una alternativa de iluminación en las vías de Antioquia.
+1.2 Antecedentes y estado del arte
+La iluminación pública juega un papel fundamental en la seguridad en las carreteras, ya que proporciona la luz necesaria para que los conductores puedan identificar posibles peligros, así como para visualizar a peatones y otros vehículos. Estudios realizados en Colombia mostraron que el 74% de los tramos viales son no-urbanos. Además, según Arévalo (2015) el 83% de las vías colombianas tienen iluminación deficiente o inexistente.
+
+Un sistema de iluminación deficiente genera condiciones riesgosas para los actores viales, afectando su capacidad de circular con seguridad. Como lo señala un informe técnico de la Fundación para la Seguridad Vial (2023), en España el 82% de los conductores han experimentado situaciones de riesgo debido a una iluminación deficiente. Además, uno de cada tres accidentes de tránsito se produce por visibilidad vial limitada. Por su parte, en Colombia en 2021 se registró que el 3% de los accidentes de tránsito fueron ocasionados directamente por vías con infraestructura e iluminación deficiente (Bonet, 2023).
+ 
+Haciendo una precisión en Antioquia, se afirma que el departamento es uno de los 32 que componen el territorio colombiano y ocupa el 5,6% del mismo (Martínez A., 2019). Según la Gobernación de Antioquia (2015), este departamento tiene la red vial más compleja de Colombia, con más de 18.017 km de vías, representando 2.718 vías nacionales, departamentales y municipales: 1.827,5 km pertenecen a la red vial nacional, 4.558,6 km a la red vial secundaria y 11.630,9 km a la red vial terciaria; la información se amplía en el Anexo 1. Teniendo en cuenta que el país cuenta con una red de carreteras de 206.102 km (Logistics Cluster, 2021), de las cuales, Antioquia posee 18.017 km y considerando que el 83% de las vías colombianas tienen iluminación deficiente o inexistente, se puede concluir que las vías antioqueñas con déficit de iluminación representan un 7,28% del total nacional, obteniendo un valor aproximado de 15.004 km de vías afectadas, lo que se confirma con la necesidad de señalización tomando el último registro de Inventario Vial de Antioquia, en el cual se identifica necesidades específicas en cuanto a señales reglamentarias, señales preventivas, señales informativas, señales dobles, etc (Gobernación de Antioquia, 2021). 
+
+Por lo anterior y en aras de confirmar la problemática, se realizó un análisis de las vías de Antioquia por medio de la aplicación Google Maps, en el que se identificó una carencia significativa de alumbrado público en las carreteras, lo que aumenta el riesgo de accidentes durante la noche debido a la falta de visibilidad para los conductores y peatones, el detalle se muestra en el Anexo 2. Además, se encontraron problemas de deterioro de la infraestructura lumínica en varios municipios, como en Giraldo, donde ninguna de las 460 luminarias requeridas para el sistema de alumbrado público está en condiciones óptimas (Acevedo & Zapata, 2018). En Medellín, a pesar de los esfuerzos de actualización del alumbrado público, al menos 18,000 luminarias LED, que representan más del 10% de las luminarias adquiridas, presentaron fallas técnicas, afectando la percepción de seguridad en 70 puntos de la ciudad (Estrada, 2023; Alcaldía de Medellín, 2021).
+Esto evidencia la necesidad de nuevos proyectos de iluminación vial en Antioquia, tanto en vías municipales como intermunicipales, y la oportunidad de avanzar hacia fuentes de energía más limpias. En esta línea, la iniciativa tecnológica Antioquia LED, implementada por la Gobernación de Antioquia y el IDEA, busca mejorar el sistema de alumbrado y extender redes de iluminación en zonas rurales durante el periodo 2021-2026 (IDEA, 2023). Con esta estrategia se ha logrado cambiar luminarias de sodio y mercurio por LED en 24 municipios en 2023, reduciendo en un 50% las emisiones de CO_2 del alumbrado público (Semana, 2023). 
+
+Por otro lado, a nivel mundial se han desarrollado alternativas de iluminación vial como el uso de pinturas con pigmentos fotoluminiscentes, como aluminato de estroncio (SrAl_2 O_4), para realizar las demarcaciones y señalizaciones en las carreteras. Estas pinturas almacenan energía de la luz solar o artificial y la emiten en la oscuridad, siendo compatibles con los materiales de las carreteras y reduciendo el riesgo de accidentes en vías rurales y poco iluminadas (Martínez et al., 2023; Bacero et al., 2015). Se han desarrollado patentes como elementos visuales fotoluminiscentes para publicidad vial en Estados Unidos (NCBI, 2024a), pigmentos fosforescentes en Rumania, Japón y España a base de SrAl_2 O_4 dopados con Eu^(2+) y Dy^(3+) (NCBI, 2024b; NCBI, 2024c; NCBI, 2024d) y juntas para demarcar contornos de puertas de contenedores y vehículos de transporte en Corea del Sur (NCBI, 2024e).
+
+Asimismo, en Paving Expo 2023, la empresa Pavgreen Brasil lanzó una línea de pintura fotoluminiscente para señalización vial en Brasil con una duración de 10 a 12 horas, garantía de 3 años y resistencia a la abrasión, buscando mejorar la seguridad vial y reducir costos respecto a las luminarias convencionales (Carreteras Pan-Americanas, 2023). Además, en Oss, Holanda, el proyecto Smart Highway, de Studio Roosegaarde y Heijmans, utilizó esta pintura en 500 m del tramo vial N329 (BBC News, 2014). También, en Victoria, Australia, se creó Safety Path, un proyecto de marcación vial con pintura fotoluminiscente para facilitar la visibilidad en autopistas y autovías en la noche, además de ser una opción más fácil de instalar y más amigable económicamente que la iluminación LED (Bueno, 2023). Las anteriores representan grandes estrategias ya que la implementación de demarcación horizontal fotoluminiscente en las vías es una excelente estrategia para manejar los accidentes de tránsito, ya que según Miller (1993) y Goverdovskaya (2014) se ha demostrado que una marcación en el centro y costados de las carreteras puede reducir hasta en un 20% los índices de accidentalidad vial. 
+
+Por otra parte, Nissan lanzó en 2015 el vehículo modelo “Nissan Glow in the Dark” con pintura fotoluminiscente, en su intención de mejorar la seguridad al volante. Siendo el primer automóvil que, gracias a la radiación solar absorbida en el día, brilla en la noche (Fidalgo, 2015; Solera, 2015).
+2. Marco lógico
+2.1 Árbol de Oportunidades 
+En este apartado se dan a conocer las causas directas e indirectas que dan pie a la oportunidad que será tratada en el presente proyecto, así como los efectos que tiene el no aprovecharla. Es importante aclarar, que el presente trabajo se enfocará principalmente en las causas directas e indirectas presentes en la última rama en la derecha del gráfico. Finalmente, se define la oportunidad principal como el aprovechamiento de una alternativa de iluminación en las vías de Antioquia. La estructura completa del árbol de oportunidades se puede visualizar en el Anexo 4.
+2.2 Árbol de Objetivos 
+En el Anexo 5 se presenta el árbol de objetivos, derivado de la construcción del árbol de oportunidades. Se plantea el objetivo general en pro de implementar una alternativa de iluminación en las vías del departamento de Antioquia, atacando al 35% de la red vial Departamental y generando una mejora de 6.304,31 kilómetros.
+2.3 Análisis de Involucrados
+Se propone una matriz para examinar a todos los potenciales implicados, quienes podrían estar involucrados o impactados por el proyecto en diversas formas, ya sea de manera directa o indirecta. Se organizan según el papel que podrían desempeñar en relación con el proyecto, así como por el nivel de interés, impacto o influencia que puedan tener sobre él. También se puede destacar que con el proyecto se verán beneficiados principalmente las vías, la población local y los actores viales. La matriz se muestra en el Anexo 6 y en el Anexo 7, se presenta una red de involucrados para dar una mejor evidencia de las relaciones planteadas.
+2.4 Alternativas
+Como alternativa de iluminación del presente proyecto se tiene la pintura fotoluminiscente, cuyo principal compuesto es el Aluminato de Estroncio, la cual una vez excitada a través de radiación UV visible o infrarroja, emite luz perceptible durante un tiempo determinado con luminancia específica, en ausencia de estímulo luminoso (Alcón, Moreno, Rodríguez, & Tolosa, 2010).  Con esto, se busca analizar los diferentes lugares y/o elementos en los cuales se podría aplicar la pintura de manera que se obtenga un nivel de iluminación que permita adquirir los mayores beneficios posibles encaminados al objetivo que se tiene dentro del proyecto. Por tanto, se plantean tres distintas alternativas: Uso en señales horizontales, uso en vehículos; y uso en defensas y separadores viales, las cuales son explicadas a profundidad en el Anexo 8. 
+   2.4.1 Análisis de la alternativa 
+Teniendo en cuenta las alternativas planteadas anteriormente se hace uso de la escala de Saaty para realizar una evaluación objetiva de las mismas, la cual permitió asignar pesos específicos a cinco criterios clave, los cuales se presentarán a continuación. Es importante resaltar, que en el Anexo 8 se encuentra un mayor detalle de estos criterios. 
+
+• Costos: Se analizan los costos por galón de pintura a ser implementado en cada una de las alternativas, pretendiendo que sea el menor posible. 
+• Impacto ambiental: Pretende medir el impacto ambiental de la pintura en tres aspectos principales, que se buscan minimizar:  la generación de compuestos orgánicos volátiles (VOC), el potencial de generación de ozono y el riesgo de contaminación a partir de los colorantes principales blanco (Dióxido de titanio) y amarillo (Cromato de plomo).
+• Accidentalidad: Indica los porcentajes históricos (sin pintura fotoluminiscente) de accidentalidad generados por las alternativas, teniendo en cuenta choques entre vehículos, ya sea detenidos o en movimiento, choques con elementos por fuera de la sección de la vía y volcamientos, y choques con barandas, vallas y separadores.
+• Tiempo de atenuación: Mide en horas el tiempo de duración de la fotoluminiscencia de la pintura, el cual, si se toman como base las mismas condiciones climáticas, misma concentración y mismo tipo de pigmento, se basa principalmente en la textura de la superficie de cada una de las alternativas, buscando maximizar el criterio.
+• Alcance: Permite determinar el impacto que el proyecto puede llegar a tener en las comunidades, basado en el alcance que se tiene en términos de actores viales y miembros de las comunidades en cuanto a la permanencia de cada una de las alternativas en un lugar específico; alcance que, se pretende maximizar.
+
+A partir de las explicaciones dadas, se realiza una evaluación inicial de cada una de las alternativas respecto a cada uno de los criterios mencionados anteriormente. Con base a esta información, se realizó un modelo de ponderación cuantitativa en el cual se asignó un peso a cada uno de los criterios teniendo en cuenta principalmente la importancia relativa de cada criterio en cuanto al cumplimiento de los objetivos del proyecto. En cuanto a los criterios cualitativos que se tienen, es necesario realizar un proceso de conversión de carácter, pasando de una escala de bajo, medio, moderado y alto a una que esté con valores entre cero y uno. Finalmente, se realiza el cálculo respectivo entre el peso y el valor de cada criterio, para así obtener la alternativa que mejor convenga. Así, en la Tabla 4 se presenta el orden de prioridad asignado a las tres diferentes alternativas. Cabe resaltar que todas las iteraciones y cálculos realizados dentro del modelo se encuentran en el Anexo 8.  
+Tabla 4. Elección de la alternativa. Elaboración propia.
+AlternativaMétricaPriorizaciónSeñales horizontales0,641Vehículos0,433Defensas viales y separadores 0,492
+De esta manera, se puede evidenciar que la alternativa con mayor puntaje es la señalización horizontal, ya que se destaca principalmente por su alcance, siendo este el criterio más importante, dado que es la única que puede favorecer a todos los actores viales y a una mayor cantidad de miembros de las comunidades.
+3. Estudio de Mercado
+3.1. Caracterización del bien 
+Las demarcaciones viales tradicionales presentan como desventaja que son percibidas a menor distancia, su visibilidad se ve afectada por lluvia, neblina, polvo u otros vehículos que circulen en la vía (MINTRANSPORTE, 2022), con esto sumado al problema de alumbrado que se ha presentado con anterioridad, se identifica una oportunidad de incursionar en el mercado con un nuevo producto que optimice la señalización horizontal de las vías. Así, el proyecto se centra en la producción y distribución de “Pintura Fotoluminiscente”, una pintura vial que a diferencia de las pinturas reflexivas que se usan en la actualidad, no necesita ser iluminada por una fuente de luz para ser visible, ya que tiene la capacidad de iluminar por sí misma tras recargarse con rayos UV, gracias a su componente principal, el aluminato de estroncio.
+La pintura se almacenará y distribuirá en una presentación cilíndrica de lata de 1 galón, con la tapa sellada completamente, con su respectivo etiquetado que incluirá el lote y las recomendaciones respectivas con respecto a su uso y riesgos. Su característica principal no se limita únicamente a su función auto recargable y duradera, sino que también se traduce en su versatilidad de aplicación, ofreciendo así una solución integral para abordar la problemática de la falta de iluminación en entornos nocturnos. 
+Es un producto pionero en la región ya que no se identificó competidores que se dediquen a la producción de este tipo de pintura. Por lo tanto, el proyecto busca entrar a competir con empresas de pintura tradicionales, en especial las que se dedican a la fabricación de pinturas viales. 
+3.2. Caracterización del público objetivo
+El público objetivo del proyecto en primera instancia es el gobierno del Departamento de Antioquia y las demás entidades gubernamentales interesadas en realizar proyectos de infraestructura vial, como INVIAS, la ANI y cada Municipio, mediante los contratistas especializados en tareas de construcción de vías, mantenimiento vial, interventoría y procesos de contratación para el suministro e instalación de la señalización vertical y horizontal. Es importante resaltar que este es el principal segmento de mercado, sin embargo, se tiene en cuenta que la pintura puede ser requerida por particulares para su aplicación en vías privadas y parqueaderos. Esto da cuenta de las diversas aplicaciones que se le pueden dar al producto y que no se limita únicamente a un segmento.
+
+Aunque los clientes directos serían las entidades que hagan uso de la pintura en sus actividades industriales como se mencionó, el proyecto impacta comunidades enteras, que se verán beneficiadas por las iniciativas gubernamentales donde se pretenda mejorar la calidad de vida a través de la implementación de la pintura fotoluminiscente, como dinamizadora de espacios públicos para el fortalecimiento del bienestar en comunidad.
+
+Teniendo en cuenta lo anterior, se pretende escalar el proyecto a nivel departamental y lograr generar un cambio en las vías de Antioquia, con lo que se podría impactar a por lo menos un 80% de los 6.903.721 habitantes (Gobernación de Antioquia, 2024), considerando que la gran mayoría hacen uso de los corredores viales del departamento y se beneficiarán de la nueva alternativa de señalización, contribuyendo a la seguridad y prosperidad de la región.
+3.2. Demanda
+El mercado de pinturas está en constante crecimiento, ya que hay un aumento en el interés por la inversión en infraestructura y mostrando los beneficios de aplicar esta pintura en las vías con problemas de iluminación, se puede lograr que el gobierno la vea como una solución innovadora para invertir. Más aún, teniendo en cuenta el plan de desarrollo departamental vigente “Por Antioquia Firme”, en el que se suscita el interés en mejorar el 60% de las vías pasando de ser en afirmado a pavimentación, así como la recuperación de la malla vial terciaria debido a que de los 18 mil kilómetros de vías que tiene el departamento, el 80% se encuentra en regular o mal estado (Gobernación de Antioquia, 2024).
+
+Para esto es primordial tener un inventario de las vías que presentan iluminación deficiente o nula. Teniendo en cuenta la cantidad preliminar presentada en los antecedentes del proyecto, en la que se da como valor aproximado de vías afectadas en Antioquia a los 15.004 km por falta de iluminación, se estima la demanda de modo más preciso, por medio de un filtro en las vías registradas en el último inventario vial del Departamento según la posibilidad de uso de la pintura. Es decir, se tiene en cuenta a las vías pavimentadas o con una composición de rodadura en placa huella, ya que a pesar de que las vías terciarias que son las más afectadas representan más de un 65% del total de infraestructura vial, no todas cuentan con las características esenciales para implementar en ellas la pintura. Por lo tanto, se descartó en este análisis las carreteras afirmadas o en tierra, obteniendo un total de 6.304,31 km de vías disponibles donde podría ser aplicada la pintura fotoluminiscente, ya sea por déficit en su iluminación y señalización, o porque se encuentran en construcción y el producto podría ser una alternativa de solución o complemento al alumbrado público existente.
+
+Para obtener una proyección inicial de la demanda, se realizaron varios cálculos considerando varios factores de importancia. Teniendo en cuenta que un galón de pintura para tráfico (la utilizada en vías) a 200 micrones de espesor tiene un rendimiento de 8 m2 a 10 m2 (Pinturas JET, 2021), con esto, se puede determinar que para pintar los 6.304,31 km de vías con necesidades de iluminación en Antioquia serán necesarios aproximadamente 163.912 galones de pintura fotoluminiscente, este valor se obtiene por medio de una estimación teniendo en cuenta una señalización vial de dos líneas blancas a los costados de la vía. Adicionalmente, se tiene presente que según el Manual de señalización vial el grosor de estas líneas tiene que estar entre 12 cm y 15 cm (MINTRANSPORTE, 2022), en este caso se usó un promedio de 13,5 cm para el cálculo de los galones (para más detalles del cálculo mencionado ver Anexo 9). En un principio se espera cubrir un 2,6% de la demanda de iluminación en dichas vías, es decir, 163,91206 km y para pintar esta cantidad de kilómetros serán necesarios aproximadamente 4.255 galones de pintura.
+
+A futuro se espera tener una demanda creciente respecto a la proyección de construcción y mantenimiento de vías en el Departamento, de este modo se podría impactar en aproximadamente 1.570 km (ver Anexo 10) según la planeación gubernamental vigente para los próximos 4 años. Si se considera que cada administración propone cumplir una meta similar a la actual, entonces la demanda a través de los años tendría un aumento de aproximadamente una cantidad similar de kilómetros.
+3.3. Oferta
+En una relación directa de proveedor clientes, la industria de la pintura interactúa con otros sectores como el manufacturero y la construcción. Estos sectores son muy fuertes en el país, por lo que un crecimiento en la producción de estas industrias repercute de forma positiva en esta actividad económica. Lo anterior, ha llevado a la industria de la pintura a ser un mercado apetecido de incursionar (Centro Nacional de Producción Más Limpia, 2020).
+
+Según la encuesta anual manufacturera del DANE (2024), las pinturas en Colombia se encuentran bajo el código 202 que hace referencia a la fabricación de otros productos químicos y que encierra las actividades relacionadas con la Fabricación de pinturas, barnices y revestimientos similares, tintas para impresión y masillas. Para el 2022, la producción bruta de esta actividad ocupó el segundo lugar concentrando el 7,3% de la producción industrial total. Además, ocupó el cuarto lugar en generación de empleo al concentrar el 6,6% del personal ocupado por la industria nacional.
+
+En general, el mercado mundial de materiales de señalización vial registró una tasa compuesta anual del 4.4% entre 2022 y 2029. Se espera que alcance más de 8.99 millones de dólares estadounidenses para 2029 (Exactitude Consultancy, 2022). Haciendo una precisión local, el mercado de pinturas en Colombia alcanzó un volumen de ventas de 164 millones de litros en 2022, y según el Market Report Historical and Forecast Market Analysis se estima que el mercado crezca a una tasa de crecimiento anual compuesta (CAGR) de 5,40% durante 2023-2028 (como se citó en Aldana, 2023). Dentro del mercado de pinturas en Colombia, se destacan Pintuco, Colorquimica y SunChemical quienes tuvieron ventas al 2022 de aproximadamente 313 mil millones para las dos primeras y de 279 mil millones para la última (Market Reports como se citó en Aldana, 2023). Es importante resaltar que en su portafolio de productos cuentan con una línea ya sea de pintura para la demarcación vial o de insumos para la preparación de esta; pero nada relacionado específicamente con el producto del presente informe.  
+
+Por otro lado, en términos de pintura fotoluminiscente, se tiene que dentro del país hay solo dos empresas productoras ubicadas en la ciudad de Bogotá, Soluciones fotoluminiscentes Colombia y MMP de Colombia, que representarían los competidores de la tecnología propuesta en el proyecto, teniendo presente que dentro de sus productos no contemplan pinturas viales. Por ello, se puede determinar que se puede abarcar la necesidad de todo el mercado, si se tiene en cuenta de que no hay un competidor directo con el mismo producto. Así, lo que se ofertará en el mercado, son los 4.255 galones presentados en el estudio de la demanda, y esta irá creciendo paulatinamente a una tasa de 5 al 6%, teniendo en cuenta el crecimiento del sector.
+3.4. Precio 
+Se realiza un análisis de los precios de la competencia más cercana que se tiene, sin embargo, en Colombia solo se tienen dos empresas que comercializan pintura fotoluminiscente y se usa para otros tipos de aplicaciones como decoración, salidas de emergencia, rutas de evacuación e instalaciones de seguridad. Estas empresas son Soluciones Fotoluminiscentes de Colombia y MMP de Colombia, de esta última se pudo realizar una cotización con la que se obtuvo 1 galón de pintura por un precio de $850.000 (MMP de Colombia, 2024). De este modo se hace un análisis inicial del precio que puede llegar a tener la pintura a producir por medio de una comparación con los competidores más cercanos en el mercado, sin embargo, como se mencionó en el apartado de oferta estas empresas no son competidores directos. 
+
+Según un análisis preliminar en el que se tienen en cuenta los costos asociados a las materias primas, costos indirectos de fabricación, a la mano de obra directa, a la inversión inicial (que incluye el alquiler de la planta y las depreciaciones de la maquinaria que se va a adquirir) y los costos fijos generales. Se obtuvo un precio preliminar por galón de pintura fotoluminiscente de $752.525, cuyos cálculos se muestran en el Anexo 11, lo que hace a la pintura bastante competitiva en el mercado, teniendo presente la oferta de la competencia. Es importante señalar que en el estudio financiero se realizará un costeo preciso para calcular el precio final que tendrá el producto.
+3.5. Plaza 
+Al tener un primer enfoque de impacto en las vías de Antioquia, el público objetivo del proyecto y sus potenciales clientes, serán el gobierno departamental y los involucrados correspondientes que puedan ser patrocinadores del proyecto (ver Anexo 6). Sin embargo, no se pueden dejar de lado otros clientes particulares que puedan estar interesados en el producto.
+
+Los canales de distribución para conectar con los clientes serán los siguientes:
+Canales directos: Al ser los principales clientes mayoristas, la venta se hace de primer nivel, directamente entre vendedor y comprador, en un principio desde la misma planta de producción y a través de envíos. Esto no excluye clientes minoristas, quienes podrán hacer compra a través de e-commerce o también en punto físico directamente con el vendedor.
+Canales indirectos: Estas ventas se harán a través de ferreterías y en tiendas de retail, especializadas en elementos de construcción como el Grupo San Pio, Mayorista de Materiales, Easy y Homecenter, entre otros almacenes especializados en la ciudad con los que se buscaría realizar alianzas comerciales.
+3.6. Promoción
+Por el tipo de producto y más aún por el público principal al que quiere ser dirigido, se deben crear estrategias de promoción dirigidas a empresas constructoras, proveedoras de servicios a las entidades públicas. Para ello es importante realizar publicidad en medios empresariales y comenzar a identificar a las empresas públicas y privadas que pueden estar más interesadas para darles muestras y cotizaciones con regularidad del producto. Así mismo, dada la naturaleza de los principales clientes, es importante la asistencia a ferias y eventos relacionados con la construcción para dar a conocer el producto como alternativa innovadora y diferente al uso de pinturas convencionales. Un ejemplo es la asistencia a EXPOCAMACOL, un gran evento en Medellín que reúne a las empresas y profesionales en la cadena productiva de la construcción (CAMACOL, s.f.); así como a futuro, como medio de expansión del mercado, la participación cada dos años en Expoconstrucción y Expodiseño, evento internacional llevado a cabo en CORFERIAS, Bogotá, catalogado como la más importante plataforma de la industria de la construcción en Colombia (Corferias, s.f.). Para la participación en este tipo de eventos se debe destinar un aproximado de $ 50.000.000 COP/año, que van a cubrir un espacio de exhición de 1-27 m^2, la participación de 4 expositores, 50 invitaciones, el diseño y construcción del stand, materiales de marketing y promoción (folletos, videos, merchandising, etc.), transporte y logística, publicidad y demostraciones, entre otras (Expoconstrucción y Expodiseño, 2023).
+
+También, es importante darse a conocer por medio del patrocinio de eventos y campañas relacionadas con la seguridad vial y ofrecer charlas sobre la importancia de la señalización efectiva en las vías del departamento, haciendo pruebas en vivo del producto y mostrando sus propiedades en tiempo real. No se puede dejar de lado el segmento de clientes particular, por lo tanto, para que el producto se dé a conocer al público en general, es importante contar con una página web y redes sociales, que permitan la interacción con otro tipo de clientes, creando un espacio de interacción donde incluso se puedan recibir las quejas, reclamos, sugerencias o el nivel de satisfacción con el producto y la calidad del servicio prestado por parte de la empresa. Este tipo de herramientas también van a facilitar el análisis de métricas que favorecerán el crecimiento de la marca. Para toda la demás promoción fuera de la participación en ferias, se pretende destinar en principio, no más de $ 5.000.000 COP/mes.
+4. Estudio Técnico
+4.1. Principio de funcionamiento
+Los pigmentos fotoluminiscentes absorben fotones de la radiación electromagnética en el espectro de luz visible y ultravioleta. Con esta absorción comienzan procesos de fotoexcitación, es decir, los electrones de los compuestos fotoluminiscentes pasan a niveles más altos de energía. En este estado activado el pigmento puede emitir fotones de luz visible. En la Figura 5 del Anexo 12 se observa una representación del principio de fotoluminiscencia.
+4.2. Propiedades esperadas
+Para establecer los detalles técnicos de la pintura fotoluminiscente se siguieron las especificaciones de la Norma Técnica Colombiana NTC-1360-1 que regula la pintura en frío para demarcación en pavimentos en Colombia. Las propiedades básicas indicadas por esta normativa son (ICONTEC, 1999):
+● Color: Los colores más aplicados en carreteras son el blanco y amarillo. El blanco es usado para líneas longitudinales, transversales, símbolos y flechas, mientras que el amarillo es empleado para marcadores de obstáculos y líneas que separan flujos.
+● Densidad: 1.32 - 1.52 g/mL a 25ºC según protocolo de medición de NTC 561.
+● Viscosidad: 75 – 95 Ku a 25ºC según protocolo de medición de NTC 559. La densidad y viscosidad de la pintura se ajusta por medio de la adición de solventes.
+● Tiempo de secado: < 15 minutos según la Norma ASTM D 711. El tiempo de secado se disminuye agregando solventes orgánicos volátiles.
+● Resistencia a la abrasión: > 100 dm3 según la Norma IRAM 1221. Esta propiedad se mejor con carbonato de calcio (CaCO3).
+● Contenido de compuestos orgánicos volátiles (VOC): < 150 g/L según NTC 6018.
+● Fineza de dispersión: > 3 Unidades Hegman según la prueba de Hegman regulada por NTC 557.
+● Base: agua o solventes orgánicos.
+
+Además, la pintura fotoluminiscente será aplicada para señalización vial y se espera que ilumine las carreteras en los periodos de oscuridad cada día que duran de 11 a 12 horas en Colombia (Tu Tiempo, 2024). Por lo tanto, otra propiedad importante del producto es:
+● Tiempo de atenuación: ≥ 12 horas. Este es el tiempo que transcurre desde que finaliza la excitación o estimulación sobre el activo fotoluminiscente hasta que la luminancia se reduce debajo del límite de detección humana de 0.0003 cd/m2 (Puig, 2023). La luminancia de la pintura se puede potenciar agregando esferilla de vidrio.
+
+Por otro lado, al realizar una investigación de los productos similares disponibles en el mercado se destacan algunas características especiales a considerar para incluir en el bien a desarrollar:
+● Bajo olor: El olor característico de la pintura se debe a los solventes orgánicos. Una forma de reducir el olor es regulando el contenido de VOC.
+● Resistencia a la intemperie: Se obtiene usando resinas sintéticas.
+● Buena adherencia y baja salpicadura: Se logra manteniendo la densidad y viscosidad de la pintura en los rangos recomendados.
+● Resistencia al ataque de microorganismo del ambiente: Se potencia agregando aditivos antimicrobianos con cobre y zinc.
+4.3. Materias primas
+Las materias primeras requeridas para construir la fórmula de la pintura se determinaron mediante las propiedades esperadas del producto. Los componentes básicos de la pintura en frío fotoluminiscente son (Puig, 2023; Zambrano, Ramírez, Bolívar, Trosel, & Manrique, 2016):
+● Aglutinantes o resinas: Usualmente orgánico. Es una matriz que brindan protección y mantiene unidos los demás componentes de la pintura. Se pueden usar en forma sólida, disueltos en solventes orgánicos o en soluciones acuosa. Los aglutinantes pueden ser aceites secantes (más usual aceite de linaza), resinas naturales (origen vegetal) o resinas sintéticas acrílicas. Siendo las últimas las elegidas para la formulación de la pintura ya que son más resistentes a las condiciones atmosféricas que experimentan las carreteras. 
+● Solventes: Son sustancias líquidas que proveen a la pintura su fluidez necesaria para aplicar. Se evaporan cuando se aplica la pintura, por lo que son responsables de su olor. Las pinturas para señalización vial horizontal se pueden realizar a base de agua o base de solventes orgánicos. Sin embargo, la pintura a base de solventes se seca más rápido y suele soportar condiciones ambientales más extremas. Los solventes más usados a nivel industrial son agua, tolueno, acetato de etilo y 2-propanol. Para la formulación de la pintura se usará una mezcla de solventes orgánicos y agua. El agua debe ser destilada o desionizada para favorecer la estabilidad de la pintura.
+● Pigmentos regulares: Responsables del color de la pintura. Normalmente son comercializados en polvo. Suministran color y cobertura a la pintura. Además, pueden ayudar a la anticorrosión y a la estabilidad frente a las condiciones ambientales. El pigmento blanco más usual es el dióxido de titanio (TiO2).
+● Pigmentos fotoluminiscentes: Responsables de la luminancia de la pintura en la oscuridad. Se seleccionaron según su tiempo de atenuación. Se encontró que las matrices de aluminatos y silicatos de estroncio dopados con europio (Eu) o disprosio (Dy) tienen mayores tiempos de atenuación (superiores a 14 horas) como se observa en la Figura 6 del Anexo 12, por lo tanto, son los más adecuados para el desarrollo de esta aplicación.
+● Aditivos: Sustancias aplicadas en pequeñas cantidades que le dan características especiales a la pintura, como se describió en la subsección de Propiedades esperadas.
+ 
+Para la selección de las referencias particulares de las materias primas se evaluó la disponibilidad, facilidad de entrega y precio de diferentes fabricantes y distribuidores como se muestra en la Tabla 6 del Anexo 13. Las materias primas seleccionadas se presentan en la Tabla 7 del Anexo 13.
+4.4. Fórmula
+Con las materias primas escogidas, se formuló la composición de la pintura. Para esto se fijó la densidad objetivo del producto en 1.50 g/mL y se tuvieron en cuenta las recomendaciones de uso del fabricante y las composiciones generales reportadas por la competencia e investigaciones. Además, se consideraron las restricciones ambientales normativas. En la Tabla 8 del Anexo 14 se resumen las restricciones examinadas. 
+
+Cabe resaltar que se siguieron los resultados de la referencia de Puig (2023), para definir los límites de composición del pigmento fotoluminiscente en la pintura. En la Figura 6 del Anexo 14 se presentan los tiempos de atenuación de pinturas fotoluminiscentes con color base blanco aplicadas sobre asfalto negro (BN) para diferentes relaciones másicas de pigmento fotoluminiscente SrAl2O4:Dy3+ a esferilla de vidrio. Se obtuvo que la referencia 60-6 BN (60% w SrAl2O4:Dy3+, 6%w esferilla de vidrio y 34% resina) tiene el mayor tiempo de atenuación de más de 3000 minutos entre las composiciones estudiadas, con una iluminancia máxima de 3.75 cd/m2 (Puig, 2023). 
+
+Siguiendo las restricciones, especificaciones y propiedades esperadas descritas previamente, en la Tabla 8 se presenta la fórmula de la pintura fotoluminiscente blanca desarrollada en este proyecto.
+Tabla 8. Fórmula de la pintura blanca. Elaboración propia.
+ComponenteFunciónEspecificacionesFracción másicaConcentración (g/galón)Invecryl 500Resina acrílicaEmulsión con 50% w sólidos 1000g/L.12,3%700,0Dióxido de titanioPigmento blancoSólido 4230 g/L8,0%454,2AguaSolvente: densidadLiquido 980 - 1000 g/L a CA.51,3%2915,0Tolueno o acetato de etiloSolvente orgánico: densidad y secadoLíquido 800 - 850 g/L a CA.2,1%120,1 SrAl2O4:Dy3+FotoluminiscenciaSólido 3599 g/L22,4%1273,9Carbonato de calcioResistencia a la abrasiónSólido 2710 g/L1,0%56,8Esferilla de vidrioPotenciar fotoluminiscenciaSólido 150 g/L2,24%127,4Recol AP1AntimicrobianoSólido 2500 g/L0,5%30,0CA: Condiciones atmosféricas T: 20-25ºC y P: 1 atm.
+4.5. Proceso de producción
+El proceso de elaboración de pinturas se realiza por lotes respondiendo a la demanda del producto y la capacidad de los equipos, unidades de producción y operarios. En general, el proceso de mezclado es termodinámicamente favorable, sin embargo, se debe garantizar la dispersión de todos los componentes en la resina.
+
+Para la determinación del proceso de elaboración de la pintura se revisaron diferentes referencias relacionadas con este tema (Magdy, 2019; Bolivar et al, 2016). En la Figura 8 del Anexo 15 se presenta el diagrama de bloques del proceso de producción de pintura, donde se indican las etapas del proceso y el flujo de materia e información.
+
+A continuación, se mencionan elementos importantes de las etapas de producción:
+1. Recepción de materias primas y semaforización: se reciben las materias primas y se depositan en la bodega de almacenamiento de suministros en recipientes independientes. Se revisan las propiedades y las fichas de seguridad y técnicas de las materias primas recibidas. Se realiza un sistema de semaforización donde se etiquetan las materias primas como aceptadas si cumplen con la cantidad y propiedades indicadas por los proveedores; en caso contrario se etiquetan como rechazadas y se contacta al proveedor.
+2. Almacenamiento de materias primas: las materias primas se almacenan en recipientes independientes siguiendo las recomendaciones de almacenamiento de los proveedores. Los reactivos líquidos van a tanques de almacenamiento (S101-S103) y los sólidos a tolvas (T101-T105) como se muestra en el diagrama de la distribución de la planta (ver Figura 9).
+3. Molienda de sólidos: se realiza una operación unitaria de pretratamiento físico a las materias primas sólidas para ajustar los tamaños de partícula en los intervalos reportados en la literatura. La molienda se puede realizar en un molino de bolas (M101) donde se debe reducir el tamaño de partículas sólidas en un rango de 5-100 µm. Se recomienda que el tiempo de molienda sea entre 30 y 40 minutos, ya que tiempos mayores pueden sobrecalentar las materias primas.
+4. Pesaje de materias primas: se realiza en báscula rotulada como P101. La masa de cada componente es definida según la producción total esperada en cada lote y la formulación de la pintura, previamente presentada. Esto se agrega en un formato de producción que se entrega a los operarios como una lista de chequeo para realizar de forma manual el pesaje. Cabe resaltar que, el pesaje de cada componente se puede realizar en el mismo equipo. La duración estimada de esta etapa es de 1 a 2 horas.
+5. Dispersión de los componentes: esta operación se realiza en un tanque de mezclado mediante agitación (D101). Se adiciona primero la resina y 1/10 del volumen calculado de agua. Luego se adicionan uno a uno los demás componentes de la fórmula con agitación continua durante 0.5 - 2 horas a 500 rpm. Al finalizar este proceso se obtiene una pasta con alto contenido de sólidos.
+6. Ajuste de propiedades de la pasta: en la misma unidad mezcladora (D101) se adiciona el resto de agua para lograr la densidad y viscosidad esperada en la pintura. Se aumenta la velocidad de agitación a 800 rpm durante 0.6 - 2 horas. Luego se ajusta la velocidad de agitación en 500 rpm y se realizan las pruebas de calidad.
+7. Pruebas de calidad: se toma una muestra de pintura y se realizan pruebas de calidad de laboratorio para determinar si el producto cumple con las especificaciones esperadas y con la normativa para pintura en frío de señalización vial descritas en la sección 4.2. Según los resultados de las pruebas en el punto de control se realizan ajustes al proceso de producción en la unidad D101. La duración estimada de las pruebas de calidad es de 12 a 15 horas.
+8. Envasado de la pintura: cuando se aprueban los estándares de calidad se abren las válvulas de la unidad D101 para alimentar las máquinas de envasado automático (F101) que adicionan el volumen objetivo de pintura en los recipientes. La duración de esta actividad depende del tamaño del lote y de la capacidad de la máquina. La circulación de los envases ocurre gracias a una cinta transportadora. La NTC 1360-1 indica que el envase puede ser plástico o metálico con tapa removible y cierre hermético. Se realiza el sellado hermético de los envases con una máquina automática (C101).
+9. Etiquetado de la pintura: Los recipientes llenos con la pintura se envían a una unidad de etiquetado (L101). En la Tabla 9 del Anexo 15 se presentan los elementos obligatorios que debe tener la etiqueta de la pintura por regulación de la NTC 1360-1 y algunos adicionales apropiados en el contexto de este proyecto.
+10. Almacenamiento de producto terminado: se paletizan los lotes y se transportan a la bodega de producto terminado con un carro estibador. Las recomendaciones de almacenamiento seguro para la pintura son temperatura de 5 a 30ºC, tiempo máximo de 12 meses y evitar la cercanía con fuentes de calor, radiación, electricidad estática y el contacto con alimentos (Corona, 2019).
+
+Se seleccionaron las referencias para cada equipo (Ver Tabla 10 del Anexo 15). Para cubrir la demanda inicial de 4255 galones de pintura, se realizarán 29 lotes de 150 galones. Teniendo en cuenta la duración de cada unidad de producción se estima que un lote se puede producir en 20 - 26 horas. La capacidad de trabajo de los equipos es del 28,4%, lo que brinda capacidad de crecimiento en términos de producción hacia el futuro.
+4.6. Distribución de la planta
+En la Figura 9 se presenta el diagrama de distribución de la planta, construido considerando el espaciamiento entre equipos por seguridad, las dimensiones de estos, los flujos de materia y posibilidades de ampliación de la planta de producción. El tamaño de la planta es de 552 m2.
+
+Figura 9. Diagrama de distribución de planta. Elaboración propia.
+
+4.7. Tratamiento de residuos generados en la planta
+Es necesario tener en cuenta los residuos líquidos, sólidos y gaseosos que se van a generar durante el proceso y después del proceso de producción de la pintura fotoluminiscente, por lo tanto, el proyecto tiene presentes las implicaciones que la actividad industrial puede tener para el medio ambiente y la salud de las personas. Es importante aclarar que el Sistema de Tratamiento de Aguas Residuales (STAR) ya se encuentra implementado en la Zona Franca de Rionegro (Ver Anexo 16 Figura 10), en la que se va a situar la localización de la planta de producción de la pintura. A continuación, en la Tabla 9 se presenta un resumen del plan de manejo de residuos, sin embargo, se desarrollará a mayor profundidad en el estudio ambiental y para ver más detalles del tratamiento de aguas residuales ir al Anexo 16 Figura 11.
+
+Tabla 9. Tratamiento de residuos generados por el proceso de producción. Elaboración propia con información del Permiso de vertimientos de la Zona Franca de Rionegro
+Vertimientos (líquidos)Emisiones (gases)Residuos sólidosConceptoAguas residuales provenientes de las personas y de limpieza de las maquinarias.Generación de VOC (Compuestos Orgánicos Volátiles).Cartón, plástico, latas y recipientes contenedores de RESPEL).TratamientoSTAR: Sistema de Tratamiento de Aguas Residuales.
+Pretratamiento
+• Estación de bombeo y rejilla de cribado.
+• Tanques de homogenización.
+• Desarenadores.
+Tratamiento primario y secundario
+• Reactor de aireación en el módulo biológico.
+• Clarificador o sedimentador secundario.
+Tratamiento de lodos
+• Espesador de lodos.• Ventilador.
+• Extractores.
+• Filtros.
+• Precipitadores.
+• Sensores VOC.
+• Filtro de carbón activado.• Aplicar el principio de responsabilidad del proveedor y por eso, quien lo provee se deba quedar con los residuos.
+• La planta se acoge al plan de desechos de la Zona Franca de Rionegro.4.8. Equipo del proyecto y SST (Seguridad y Salud en el Trabajo)
+Para llevar a cabo el proyecto es necesario contar con talento humano capacitado, que pueda realizar los diferentes procesos de producción que se requieren para llevar la pintura fotoluminiscente hasta el producto terminado. Adicionalmente, se tiene en cuenta el personal administrativo necesario para llevar a cabo el proyecto y garantizar el funcionamiento interno de la empresa. Es importante aclarar que se van a tercerizar los temas relacionados al asesoramiento legal, aseo y limpieza, la vigilancia y el monitoreo del lugar. En el Anexo 17 se presenta el equipo de trabajo del proyecto, desde los niveles operativos hasta los administrativos.
+
+En cuanto al SST, se asegurará el cumplimiento de las normas establecidas por el Sistema General de Riesgos Laborales para la protección del personal. Se implementarán programas de capacitación para el manejo correcto de las maquinarias y de los productos químicos que se manipulan en la planta. Adicionalmente, se proveerán los equipos de protección personal adecuados para las personas que laboran en la planta, también se tendrán protocolos de emergencia, respuesta rápida ante incidentes, monitoreo de la calidad del aire y condiciones ambientales en las instalaciones (Ver Anexo 18 en el que se detallan los equipos necesarios).
+5. Macro y Micro localización
+5.1 Macrolocalización
+El proyecto se localiza en el departamento de Antioquia, que está conformado por 125 municipios y aporta un 15.1% a la economía nacional (Torres & Vásquez, 2023). Se decide incursionar en este departamento debido a que la oportunidad identificada está situada en esta zona, adicionalmente se tienen varios lugares en los que se reconoce específicamente el problema. Además. es importante mencionar que Antioquia es uno de los grandes motores de la economía del país y aporta en gran medida a la generación de empleos. 
+
+El departamento cuenta con varias redes viales que son funcionales para la distribución de la pintura, posibilitando su llegada a las diferentes regiones en las que se pretende aplicar (Ver Anexo 19). Estas redes viales son de gran importancia para conectar la distribución del producto internamente en el departamento y hacia otros lugares del país. Asimismo, se tienen en cuenta las vías a intervenir que se mencionan en el Anexo 2, que también son de gran importancia para acceder a diferentes zonas. Antioquia también cuenta con una gran cantidad de túneles que facilitan y propician una interconexión más rápida (Ver Anexo 19).
+
+Considerando que Antioquia se destaca como la región de mayor exportación en el país (Universidad del Norte, 2020), así como por su conocimiento y calidad de productos, además de la facilidad para obtener insumos debido a la cercanía con el mercado y sus clientes, la localización del proyecto es idónea en dicho departamento. Concretamente, se sugiere el municipio de Rionegro en su zona franca (Ver Anexo 16 Figura 10 y Anexo 20).
+
+Por todo lo anterior, es razonable pensar en Antioquia como el lugar en el que se puede albergar de la mejor manera el proyecto, recalcando que es en esta zona en la que se ha identificado falta de iluminación para varias vías y, por tanto, la empresa y la fábrica estarían ubicadas cerca de los clientes a los que se quiere llegar en un principio. Además, es un departamento que tiene ventajas estratégicas en cuanto a la distribución del producto.
+5.2 Microlocalización
+Ahora, es importante definir el lugar específico del departamento de Antioquia en el que se va a situar la planta de producción de la pintura y el centro de operaciones. Para esto, se piensa en un lugar que sea estratégico tanto para la distribución del producto, como para el abastecimiento de materias primas. La planta se situará en el municipio de Rionegro ya que se tienen diferentes beneficios relacionados con su cercanía al aeropuerto, estratégica para la recepción de materias primas importadas. Permite acogerse al plan de tratamiento de desechos de la zona y tiene ventajas en cuanto a la distribución y el acceso a la industria.
+
+En primer lugar, la ubicación geográfica de la zona franca de Rionegro es estratégica. Se encuentra a 30 kilómetros de la ciudad de Medellín, a un costado de la pista del aeropuerto internacional José María Córdova que atiende la capital del departamento (Zona Franca de Rionegro, 2021). Esto facilita el transporte de materiales y productos, así como la distribución a diferentes partes del país (Ver Anexo 21 para más detalles). Además, cuenta con beneficios fiscales y aduaneros, los cuales consisten en exenciones de impuestos y aranceles en la importación y exportación de bienes, que pueden reducir significativamente los costos de producción y mejorar la rentabilidad de la empresa. 
+
+El lugar contará con todas las adecuaciones locativas de servicios públicos, vías de evacuación y redes contraincendios. Por otro lado, la infraestructura y servicios disponibles en la zona franca de Rionegro, como lo es el almacenamiento, vigilancia y transporte pueden ser útiles para una empresa de pinturas. Además, la disponibilidad de mano de obra calificada en la zona también es un factor importante por considerar, pues se requieren trabajadores con habilidades técnicas y conocimientos específicos, se ubica cerca de importantes centros urbanos con una amplia oferta de trabajadores capacitados (Zona Franca de Rionegro, s.f.).
+Es importante tener en cuenta que la Zona Franca está incluida en el desarrollo del Plan de Ordenamiento Territorial (POT) de Rionegro. Al ubicarse allí, conforme a lo establecido en el artículo 323 del POT, que establece el uso del suelo para el desarrollo, específicamente en el Módulo de Interés Económico del Aeropuerto, el proyecto se asegura que está en una zona promovida para este tipo de industrias. La proximidad al Aeropuerto Internacional José María Córdova, que es un eje de movilidad estratégico según el artículo 115, parágrafo 2, facilita la logística y comercialización. La ubicación en áreas permitidas para industrias medianas, conforme al artículo 347, asegura el uso adecuado del suelo, teniendo presente que se debe cumplir así con las exigencias del artículo 407 relacionadas con las restricciones ambientales, espaciales y de seguridad (POT, 2011, Acuerdo 56).
+2
+
+
+
+

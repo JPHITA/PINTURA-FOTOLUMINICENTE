@@ -1,4 +1,5 @@
 import "./../assets/css/Preguntame.css";
+import contexto_proyecto_path from "./../assets/data/contexto_proyecto.txt";
 
 import { useState, useRef, useEffect } from "react";
 
@@ -11,6 +12,7 @@ export const Preguntame = () => {
 
     const chat_body = useRef<HTMLDivElement>(null);
 
+    const [contexto_proyecto, setContextoProyecto] = useState<string>("");
     const [chat_open, setChatOpen] = useState(false);
     const [chat_input, setChatInput] = useState<string>("");
     const [mensajes, setMensajes] = useState<ChatMessage[]>([
@@ -32,6 +34,16 @@ export const Preguntame = () => {
                         "Content-Type": "application/json"
                     },
                     body: JSON.stringify({
+                        system_instruction: {
+                            parts: {
+                                text: `
+                                    eres un chatbot que responde preguntas sobre el proyecto de pintura fotoluminicente, da respuestas cortas, concisas, claras, en español, en texto plano
+
+                                    el contexto del proyecto de pintura fotoluminicente en texto plano es: 
+                                    ${contexto_proyecto}
+                                `
+                            }
+                        },
                         contents: mensajes
                     })
                 }
@@ -73,6 +85,12 @@ export const Preguntame = () => {
 
     useEffect(scrollToBottom, [mensajes]);
 
+    useEffect(() => {
+        fetch(contexto_proyecto_path)
+            .then((res) => res.text())
+            .then((data) => setContextoProyecto(data));
+    }, []);
+
     return (
         <>
             <button
@@ -99,8 +117,8 @@ export const Preguntame = () => {
                     <div className="row">
 
                         {mensajes.map((mensaje, i) => (
-                            <div key={i} className={"row justify-content-" + ( mensaje.role === "user" ? "end" : "start" )}>
-                                <div className="col-11">
+                            <div key={i} className={"row pe-0 justify-content-" + ( mensaje.role === "user" ? "end" : "start" )}>
+                                <div className="col-11 pe-0">
                                     <div className={`chat-message ${mensaje.role} text-${mensaje.role === "user" ? "end" : "start"}`}>
 
                                         {mensaje.parts[0].text}
