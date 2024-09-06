@@ -17,7 +17,7 @@ import { Team } from "./components/Team.tsx";
 // import { Faq } from "./components/Faq.tsx";
 // import { Contact } from './components/Contact.tsx';
 // import { Footer } from './components/Footer.tsx';
-import { Preguntame } from './components/Preguntame.tsx';
+// import { Preguntame } from './components/Preguntame.tsx';
 
 
 function App() {
@@ -67,7 +67,7 @@ function App() {
 
       {/* <Footer /> */}
 
-      <Preguntame />
+      {/* <Preguntame /> */}
       <div id="preloader" ref={preloader}></div>
       <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
 
