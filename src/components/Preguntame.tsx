@@ -25,7 +25,9 @@ export const Preguntame = () => {
     ]);
 
     async function fetch_chat(mensajes: ChatMessage[]) {
-        const API_key = "AIzaSyBHvdnUc6b9iKImFGmYZK8_27_M7yAfjho";
+        try {
+
+            const API_key = "AIzaSyBHvdnUc6b9iKImFGmYZK8_27_M7yAfjho";
 
             const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_key}`,
                 {
@@ -49,6 +51,11 @@ export const Preguntame = () => {
                 }
             );
 
+            if (!res.ok || res.status !== 200) {
+                alert("servicio no disponible, por favor intenta más tarde");
+                return;
+            }
+
             const data = await res.json();
 
             setMensajes([
@@ -58,6 +65,10 @@ export const Preguntame = () => {
                     parts: data.candidates[0].content.parts
                 }
             ]);
+
+        } catch {
+            alert("servicio no disponible, por favor intenta más tarde");
+        }
 
     }
 
@@ -117,7 +128,7 @@ export const Preguntame = () => {
                     <div className="row">
 
                         {mensajes.map((mensaje, i) => (
-                            <div key={i} className={"row pe-0 justify-content-" + ( mensaje.role === "user" ? "end" : "start" )}>
+                            <div key={i} className={"row pe-0 justify-content-" + (mensaje.role === "user" ? "end" : "start")}>
                                 <div className="col-11 pe-0">
                                     <div className={`chat-message ${mensaje.role} text-${mensaje.role === "user" ? "end" : "start"}`}>
 
@@ -133,11 +144,11 @@ export const Preguntame = () => {
 
                 <div className="chat-input-container">
                     <textarea
-                     rows={1}
-                     className="chat-input"
-                     placeholder="Escribeme tu pregunta ..."
-                    value={chat_input}
-                    onChange={(e) => setChatInput(e.target.value)}
+                        rows={1}
+                        className="chat-input"
+                        placeholder="Escribeme tu pregunta ..."
+                        value={chat_input}
+                        onChange={(e) => setChatInput(e.target.value)}
                     />
                     <button className="send-button" onClick={send_message}><i className="bi bi-send"></i></button>
                 </div>
