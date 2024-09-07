@@ -1,9 +1,14 @@
 import "./../assets/css/Team.css";
 
 import team_1 from "./../assets/img/team/team-1.jpg"
-import team_2 from "./../assets/img/team/team-2.jpg"
+// import team_2 from "./../assets/img/team/team-2.jpg"
 import team_3 from "./../assets/img/team/team-3.jpg"
 import team_4 from "./../assets/img/team/team-4.jpg"
+
+import stiwar from "./../assets/img/team/stiwar.jpg"
+import nicolas from "./../assets/img/team/Nicolas.png"
+import jose_luis from "./../assets/img/team/jose luis.jpg"
+import daniela from "./../assets/img/team/daniela.jpg"
 
 interface TeamMember {
     nombre: string;
@@ -22,7 +27,7 @@ export const Team = () => {
         {
             nombre: "Stiwar Albeiro Cataño",
             carrera: "Ingenieria Ambiental",
-            img: team_2
+            img: stiwar
         },
         {
             nombre: "María Fernanda Julio",
@@ -37,12 +42,12 @@ export const Team = () => {
         {
             nombre: "José Luis Martínez",
             carrera: "Ingenieria Civil",
-            img: team_1
+            img: jose_luis
         },
         {
             nombre: "Juan Nicolás Piedrahíta",
             carrera: "Ingenieria de Sistemas e Informatica", 
-            img: team_2
+            img: nicolas
         },
         {
             nombre: "Sara Restrepo Ocampo",
@@ -52,7 +57,7 @@ export const Team = () => {
         {
             nombre: "Daniela Sanchez Patiño",
             carrera: "Ingenieria Administrativa",
-            img: team_4
+            img: daniela
         }
     ]
 

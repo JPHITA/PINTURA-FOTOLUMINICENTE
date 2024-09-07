@@ -7,7 +7,7 @@ export const Hero = () => {
                 <div className="container position-relative" data-aos="fade-up">
                     <div className="row justify-content-center">
                         <div className="col-xl-7 col-lg-9 text-center">
-                            <h1>PINTURA FOTOLUMINICENTE</h1>
+                            <h1>PINTURA FOTOLUMINISCENTE</h1>
                             <h2>La solución creativa y responsable a la falta de iluminación</h2>
                         </div>
                     </div>
