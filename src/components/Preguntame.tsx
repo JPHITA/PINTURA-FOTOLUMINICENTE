@@ -2,6 +2,7 @@ import "./../assets/css/Preguntame.css";
 import contexto_proyecto_path from "./../assets/data/contexto_proyecto.txt";
 
 import { useState, useRef, useEffect } from "react";
+import Markdown from 'react-markdown';
 
 interface ChatMessage {
     role: string;
@@ -39,7 +40,7 @@ export const Preguntame = () => {
                         system_instruction: {
                             parts: {
                                 text: `
-                                    eres un chatbot que responde preguntas sobre el proyecto de pintura fotoluminicente, da respuestas cortas, concisas, claras, en español, en texto plano
+                                    eres un chatbot que responde preguntas sobre el proyecto de pintura fotoluminicente, da respuestas cortas, concisas, claras, en español, y en markdown
 
                                     el contexto del proyecto de pintura fotoluminicente en texto plano es: 
                                     ${contexto_proyecto}
@@ -130,9 +131,11 @@ export const Preguntame = () => {
                         {mensajes.map((mensaje, i) => (
                             <div key={i} className={"row pe-0 justify-content-" + (mensaje.role === "user" ? "end" : "start")}>
                                 <div className="col-11 pe-0">
-                                    <div className={`chat-message ${mensaje.role} text-${mensaje.role === "user" ? "end" : "start"}`}>
+                                    <div className={`chat-message ${mensaje.role}`}>
 
-                                        {mensaje.parts[0].text}
+                                        <Markdown>
+                                            {mensaje.parts[0].text}
+                                        </Markdown>
 
                                     </div>
                                 </div>

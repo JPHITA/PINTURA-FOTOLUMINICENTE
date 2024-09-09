@@ -107,11 +107,14 @@
 }
 
 .chat-message {
-    color: black;
     padding: 7px;
     margin-bottom: 7px;
     border-radius: 5px;
     white-space: pre-line;
+}
+
+.chat-message p {
+    color:#444444;
 }
 
 .chat-message.user {
