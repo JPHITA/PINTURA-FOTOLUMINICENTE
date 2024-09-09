@@ -1,8 +1,8 @@
 import "./../assets/css/Team.css";
 
-import team_1 from "./../assets/img/team/team-1.jpg"
-// import team_2 from "./../assets/img/team/team-2.jpg"
-import team_3 from "./../assets/img/team/team-3.jpg"
+// import team_1 from "./../assets/img/team/team-1.jpg"
+// // import team_2 from "./../assets/img/team/team-2.jpg"
+// import team_3 from "./../assets/img/team/team-3.jpg"
 import team_4 from "./../assets/img/team/team-4.jpg"
 
 import stiwar from "./../assets/img/team/stiwar.jpg"
@@ -22,7 +22,7 @@ export const Team = () => {
         {
             nombre: "Mariana Barrios Molina",
             carrera: "Ingenieria Administrativa",
-            img: team_1
+            img: team_4
         },
         {
             nombre: "Stiwar Albeiro Cataño",
@@ -32,7 +32,7 @@ export const Team = () => {
         {
             nombre: "María Fernanda Julio",
             carrera: "Ingenieria Quimica",
-            img: team_3
+            img: team_4
         },
         {
             nombre: "Andrea Henao Arroyave",
@@ -52,7 +52,7 @@ export const Team = () => {
         {
             nombre: "Sara Restrepo Ocampo",
             carrera: "Ingenieria Administrativa",
-            img: team_3
+            img: team_4
         },
         {
             nombre: "Daniela Sanchez Patiño",
