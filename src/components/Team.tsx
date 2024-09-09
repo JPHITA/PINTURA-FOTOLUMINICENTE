@@ -1,15 +1,12 @@
 import "./../assets/css/Team.css";
 
-// import team_1 from "./../assets/img/team/team-1.jpg"
-// // import team_2 from "./../assets/img/team/team-2.jpg"
-// import team_3 from "./../assets/img/team/team-3.jpg"
-import team_4 from "./../assets/img/team/team-4.jpg"
-
 import stiwar from "./../assets/img/team/stiwar.jpg"
 import nicolas from "./../assets/img/team/Nicolas.png"
 import jose_luis from "./../assets/img/team/jose luis.jpg"
 import daniela from "./../assets/img/team/daniela.jpg"
 import mariana from "./../assets/img/team/mariana.jpg"
+
+import no_img from "./../assets/img/team/no_img.png"
 
 interface TeamMember {
     nombre: string;
@@ -33,12 +30,12 @@ export const Team = () => {
         {
             nombre: "María Fernanda Julio",
             carrera: "Ingenieria Quimica",
-            img: team_4
+            img: no_img
         },
         {
             nombre: "Andrea Henao Arroyave",
             carrera: "Ingenieria Administrativa",
-            img: team_4
+            img: no_img
         },
         {
             nombre: "José Luis Martínez",
@@ -53,7 +50,7 @@ export const Team = () => {
         {
             nombre: "Sara Restrepo Ocampo",
             carrera: "Ingenieria Administrativa",
-            img: team_4
+            img: no_img
         },
         {
             nombre: "Daniela Sanchez Patiño",
