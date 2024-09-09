@@ -9,6 +9,7 @@ import stiwar from "./../assets/img/team/stiwar.jpg"
 import nicolas from "./../assets/img/team/Nicolas.png"
 import jose_luis from "./../assets/img/team/jose luis.jpg"
 import daniela from "./../assets/img/team/daniela.jpg"
+import mariana from "./../assets/img/team/mariana.jpg"
 
 interface TeamMember {
     nombre: string;
@@ -22,7 +23,7 @@ export const Team = () => {
         {
             nombre: "Mariana Barrios Molina",
             carrera: "Ingenieria Administrativa",
-            img: team_4
+            img: mariana
         },
         {
             nombre: "Stiwar Albeiro Cataño",
