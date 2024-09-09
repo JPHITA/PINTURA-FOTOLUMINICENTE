@@ -25,7 +25,7 @@ export const Faq = () => {
 
                             {
                                 preguntas.map((p, i) => (
-                                    <li data-aos="fade-up" data-aos-delay={i * 100}>
+                                    <li key={i} data-aos="fade-up" data-aos-delay={i * 100}>
                                         <i className="bx bx-help-circle icon-help"></i>
                                         <a data-bs-toggle="collapse" className="collapse" data-bs-target={"#faq-list-" + i}>
                                             {p.question}
