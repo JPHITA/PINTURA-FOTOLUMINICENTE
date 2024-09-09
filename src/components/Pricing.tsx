@@ -16,7 +16,7 @@ export const Pricing = () => {
                         <div className="col-lg-4 col-md-6" data-aos="zoom-im" data-aos-delay="300">
                             <div className="box">
                                 <h3>PRECIO</h3>
-                                <h4><sup>$</sup>755k<span> / Galon</span></h4>
+                                <h4><sup>$</sup>702k<span> / Galon</span></h4>
                                 <ul>
                                     <li>IVA incluido</li>
                                     <li>Secado Rápido</li>
